@@ -167,7 +167,7 @@ body {
   counter-reset: card;
 }
 
-.masonry .card {
+.masonry article {
   margin: 0 8px 8px 0; /* Some gutter */
   overflow: hidden;
   border-radius: 5px;
@@ -176,7 +176,10 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-  .card {
+  .masonry {
+    max-height: 1600px;
+}
+  asrticle {
     width: 50%;
   }
 }
