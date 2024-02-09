@@ -78,7 +78,6 @@ h2::selection {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
   padding: 1rem;
 }
 
@@ -92,7 +91,7 @@ h2::selection {
 }
 
 .content-text h2 {
-  font-size: 4rem;
+  font-size: 5.5rem;
   line-height: 1.2;
   transition: 0.2s ease-in-out;
   font-family: "Raleway", sans-serif;
