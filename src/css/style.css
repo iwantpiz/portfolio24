@@ -155,6 +155,8 @@ body {
   background-color: var(--card-background);
   margin: 5.5rem 0;
 }
+
+
 /* Projects */
 
 .masonry { 
@@ -167,7 +169,7 @@ body {
   counter-reset: card;
 }
 
-.masonry article {
+.masonry .project {
   margin: 0 8px 8px 0; /* Some gutter */
   overflow: hidden;
   border-radius: 5px;
@@ -179,7 +181,7 @@ body {
   .masonry {
     max-height: 1600px;
 }
-  asrticle {
+  .project {
     width: 50%;
   }
 }
@@ -197,13 +199,14 @@ body {
   margin: 2rem 0;
 }
 
+/*
 .project {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(250px, auto);
   grid-gap: 0.9rem;
 }
-
+*/
 .card .project-bio p {
   font-size: 0.83rem;
 }
