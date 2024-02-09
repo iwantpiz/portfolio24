@@ -4,13 +4,14 @@
    * Cards and sections
 */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200..1000&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #FFCF81;
+  --secondary-color: #FCA311;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
@@ -27,8 +28,8 @@
 
   /* Max width */
   --width-small: 600px;
-  --width-medium: 1100px;
-  --width-large: 1300px;
+  --width-medium: 1480px;
+  --width-large: 1680px;
 }
 
 [data-theme="dark"] {
@@ -38,7 +39,7 @@
   --text-color: #ffffff;
   --text-color-two: #222222;
   --bg-secondary: #ffffff;
-  --card-background: #111111;
+  --card-background: #1b1b1b;
   --bg-secondary-two: #f4f4f4;
   --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 }
@@ -68,7 +69,7 @@ a {
 body {
   background: var(--bg-primary);
   color: var(--text-color);
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 1.5;
 }
 
@@ -207,6 +208,7 @@ body {
 }
 
 /* Footer */
+
 #footer {
   background: #111111;
 }
