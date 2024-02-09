@@ -173,8 +173,7 @@ body {
         flex-direction: column;
         justify-content: flex-end;
         position: relative;
-        top: 160px;
-        left: 10px;
+        color: var(--text-color-two);
   
         p {
           font-size: 1.5rem;
