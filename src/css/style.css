@@ -200,7 +200,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .project {
-    max-height: 1740px;
+    max-height: 1740px !important;
     .card {
       width: 50%;
     }
