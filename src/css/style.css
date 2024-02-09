@@ -195,13 +195,21 @@ body {
 
 
 .card {
-  .project-bio p {
-    font-size: 0.83rem;
-  }
+  .project-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 160px;
+    left: 10px;
+    p {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+  } 
 
-  .project-bio h3 {
-    font-size: 0.9rem;
-  }
 
   .project-info {
     display: flex;
@@ -210,22 +218,12 @@ body {
     position: relative;
     transition: 0.5s ease-in-out;
   }
-
-  .project-bio {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
-    top: 160px;
-    left: 10px;
-  }
 }
 
 
 
 
 /* FOOTER */
-
 
 #footer {
   .container {
