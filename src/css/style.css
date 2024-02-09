@@ -160,14 +160,16 @@ body {
 /* Projects */
 
 .masonry { 
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 800px;
-  margin-left: -8px; /* Adjustment for the gutter */
-  width: 100%;
+
 }
 
 .masonry .project {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 800px;
+}
+
+.project .card {
   margin: 0 8px 8px 0; /* Some gutter */
   overflow: hidden;
   border-radius: 5px;
