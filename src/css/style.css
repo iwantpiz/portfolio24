@@ -73,7 +73,7 @@ body {
   line-height: 1.5;
 }
 
-/* Navbar */
+/* Navbar 
 .navbar {
   position: fixed;
   top: 0;
@@ -82,13 +82,13 @@ body {
   z-index: 20;
   background: var(--bg-primary);
 }
-
+*/
 .navbar .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 20;
-  height: 80px;
+  height: 120px;
   width: 100%;
 }
 
