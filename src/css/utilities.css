@@ -81,10 +81,6 @@ h2::selection {
   padding: 1rem;
 }
 
-.header-container > div {
-  margin-top: 1rem;
-}
-
 .content-text {
   text-align: left;
   margin: 1.5rem 0;
