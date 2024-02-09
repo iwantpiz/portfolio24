@@ -179,7 +179,7 @@ body {
   .masonry {
     max-height: 1600px;
 }
-  .project {
+  .project .card {
     width: 50%;
   }
 }
