@@ -160,7 +160,7 @@ body {
 /* Projects */
 
 
-.masonry .project {
+.project {
   display: flex;
   flex-flow: column wrap;
   max-height: 800px;
@@ -175,10 +175,10 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-  .masonry {
+  .project {
     max-height: 1600px;
 }
-  .project .card {
+ .project .card {
     width: 50%;
   }
 }
