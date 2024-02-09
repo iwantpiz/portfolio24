@@ -161,7 +161,7 @@ body {
   max-height: 800px;
 
   .card {
-    margin: 0 8px 8px 0;
+    margin: 1.rem;
     /* Some gutter */
     overflow: hidden;
     border-radius: 5px;
@@ -173,7 +173,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .project {
-    max-height: 1720px;
+    max-height: 1740px;
 
     .card {
       width: 50%;
