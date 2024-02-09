@@ -156,7 +156,7 @@ body {
 #projects {
   display: flex;
   flex-direction: column;
-  margin: 2rem auto 5rem;
+  margin: 3rem auto;
 
   .project {
     display: flex;
@@ -165,9 +165,7 @@ body {
   
     .card {
       margin: 1.rem;
-      /* Some gutter */
       overflow: hidden;
-      border-radius: 5px;
       position: relative;
   
       .project-bio {
