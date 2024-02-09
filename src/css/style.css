@@ -83,21 +83,26 @@ body {
   background: var(--bg-primary);
 }
 */
-.navbar .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 20;
-  height: 120px;
-  width: 100%;
-  padding: 7rem 2rem;
+
+
+.navbar {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+    height: 120px;
+    width: 100%;
+    padding: 7rem 2rem;
+  }
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    background: var(--bg-primary);
+  }
 }
 
-.navbar .nav-menu {
-  display: flex;
-  align-items: center;
-  background: var(--bg-primary);
-}
+
 
 /*
 .navbar .nav-link {
@@ -164,21 +169,32 @@ body {
   display: flex;
   flex-flow: column wrap;
   max-height: 800px;
+
+  .card {
+    margin: 0 8px 8px 0;
+    /* Some gutter */
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0 0 8px 8px;
+    position: relative;
+  }
 }
 
+/*
 .project .card {
-  margin: 0 8px 8px 0; /* Some gutter */
+  margin: 0 8px 8px 0;  
   overflow: hidden;
   border-radius: 5px;
   margin: 0 0 8px 8px;
   position: relative;
 }
-
+*/
 @media only screen and (min-width: 1024px) {
   .project {
     max-height: 1720px;
-}
- .project .card {
+  }
+
+  .project .card {
     width: 50%;
   }
 }
@@ -264,8 +280,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 670px) {
   .navbar .nav-menu {
