@@ -158,6 +158,23 @@ h2::selection {
 }
 
 
+
+/* Project Pages */
+.hero {
+  position: relative;
+    margin-bottom: 3.5rem;
+    width: 100%;
+
+  .hero-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: none;
+    padding-bottom: 70%;
+  }
+}
+
+
+
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
