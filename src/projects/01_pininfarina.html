@@ -1,5 +1,5 @@
 
-  <body>
+  <body id="body">
     <header id="hero"></header>
 
     <!-- Projects -->
@@ -71,8 +71,8 @@
     <footer id="footer"></footer>
     <script>
       $(document).ready(function(){
-        $('#hero').load('navbar.html');
-        $('#footer').load('footer.html');
-        $( '../header.html' ).insertBefore( $( 'body' ) );
+        $('#hero').load('../navbar.html');
+        $('#footer').load('../footer.html');
+        $( '../header.html' ).insertBefore( $( '#body' ) );
         });
     </script>
