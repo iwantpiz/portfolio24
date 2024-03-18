@@ -123,6 +123,7 @@ h2::selection {
     transition: 0.25s ease-in-out;
     font-size: 1.1rem;
     margin-right: 0.3rem;
+    width: 100%;
   }
 
 }
