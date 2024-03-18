@@ -1,5 +1,4 @@
-window.alert("Hello world!");
-alert("Hello world!");
+
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -68,3 +67,6 @@ let myDate = document.querySelector("#datee");
 
 const yes = new Date().getFullYear();
 myDate.innerHTML = yes;
+
+
+alert("Hello world!");
