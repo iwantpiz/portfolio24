@@ -71,7 +71,8 @@
     <footer id="footer"></footer>
     <script>
       $(document).ready(function(){
+        $('#hero').load('navbar.html');
+        $('#footer').load('footer.html');
         $( '../header.html' ).insertBefore( $( 'body' ) );
         });
     </script>
-
