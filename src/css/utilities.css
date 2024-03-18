@@ -170,6 +170,9 @@ h2::selection {
     background-position: center center;
     background-repeat: none;
     padding-bottom: 70%;
+    &:nth-child(1) {
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png);
+    }
   }
 }
 
