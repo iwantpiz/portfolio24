@@ -167,6 +167,7 @@ body {
       margin: 1.3rem;
       overflow: hidden;
       position: relative;
+      color: #FFFFFF;
   
       .project-bio {
         display: flex;
