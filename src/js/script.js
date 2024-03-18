@@ -1,3 +1,6 @@
+window.alert("Hello world!");
+alert("Hello world!");
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
