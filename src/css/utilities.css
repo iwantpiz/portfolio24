@@ -181,7 +181,7 @@ h2::selection {
   .image {
     background: #E5E5E5;
     padding: 5%;
-    
+
     .image-box {
       max-width: 1280px;
       padding-bottom: 58%;
@@ -198,26 +198,26 @@ h2::selection {
 
 
 
-
 /* Media Queries */
+
+/* Mobile + tablet */
 @media (max-width: 768px) {
   .header-container {
     margin-top: 7rem;
     text-align: center;
   }
-
   .content-text h2 {
     font-size: 2.7rem;
   }
+}
 
-
-/* Project page */
+/* desktop */
+@media (min-width: 768px) {
+  /* Project page */
   .proj-page {
     .descript {
       display: flex;
       justify-content: center;
     }
   }
-  
 }
-
