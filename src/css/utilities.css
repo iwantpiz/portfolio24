@@ -1,8 +1,4 @@
 
-body {
-  background: red;
-}
-
 
 
 .container {
@@ -218,4 +214,10 @@ h2::selection {
       justify-content: center;
     }
   }
+}
+
+
+
+body {
+  background: red;
 }
