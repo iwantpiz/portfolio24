@@ -178,6 +178,7 @@ h2::selection {
     .pimage-box {
       max-width: 1280px;
       padding-bottom: 58%;
+      margin-bottom: 3.5rem;
     }
   }
 }
@@ -223,7 +224,17 @@ h2::selection {
     .descript {
       display: flex;
       justify-content: center;
-    }
+        .title {
+          flex: 1 1 45%;
+          font-size: 3rem;
+        }
+        .text {
+          p, em, a {
+            margin: 10px;
+          }
+        } 
+          
+      }
   }
 }
 
