@@ -60,6 +60,10 @@ a {
   color: var(--text-color);
 }
 
+.link {
+  color: var(--primary-color);
+}
+
 /* Main styling */
 body {
   background: var(--bg-primary);
