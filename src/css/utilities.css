@@ -208,7 +208,7 @@ h2::selection {
 /* desktop */
 @media (min-width: 768px) {
   /* Project page */
-  .proj-page {
+  .proj-content {
     .descript {
       display: flex;
       justify-content: center;
