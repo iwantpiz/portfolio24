@@ -179,16 +179,14 @@ h2::selection {
 
 .image {
   background: #E5E5E5;
-  .image-box {
-    padding: 7%;
+  padding: 7%;
+  .image-box { 
     max-width: 1280px;
-    
     &:nth-child(1) {
       background: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png) no-repeat center center/cover;
-      padding-bottom: 50%;
+      padding-bottom: 45.4%;
     }
-  }
-  
+  } 
 }
 
 
