@@ -166,14 +166,24 @@ h2::selection {
     width: 100%;
 
   .hero-image {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: none;
-    padding-bottom: 70%;
+     padding-bottom: 70%;
+     background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png) no-repeat center center/cover;
+    
+  }
+}
+
+.descript {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  .image-box {
     &:nth-child(1) {
-      background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png);
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png) no-repeat center center/cover;
     }
   }
+  
 }
 
 
