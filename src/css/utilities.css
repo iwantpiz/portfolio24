@@ -174,11 +174,12 @@ h2::selection {
   .pimage {
     background: #E5E5E5;
     padding: 5%;
+    margin-bottom: 3.5rem;
 
     .pimage-box {
       max-width: 1280px;
       padding-bottom: 58%;
-      margin-bottom: 3.5rem;
+
     }
   }
 }
