@@ -156,12 +156,12 @@ h2::selection {
 
 /* Project Pages */
 .proj-page {
-  .hero {
+  .heroimage {
     position: relative;
       margin-bottom: 7.5rem;
       width: 100%;
   
-    .hero-image {
+    .himage {
       padding-bottom: 52%;
       background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png) no-repeat center center/cover;
     }
@@ -172,11 +172,11 @@ h2::selection {
     margin-bottom: 7.5rem;
   }
   
-  .image {
+  .pimage {
     background: #E5E5E5;
     padding: 5%;
 
-    .image-box {
+    .pimage-box {
       max-width: 1280px;
       
       &:nth-child(1) {
@@ -216,8 +216,3 @@ h2::selection {
   }
 }
 
-
-
-body {
-  background: yellowgreen;
-}
