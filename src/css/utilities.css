@@ -181,12 +181,12 @@ h2::selection {
   .image {
     background: #E5E5E5;
     padding: 5%;
+    
     .image-box {
       max-width: 1280px;
       padding-bottom: 58%;
       &:nth-child(1) {
         background: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png) no-repeat center center/cover;
-        
       }
       &:nth-child(2) {
         background: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png) no-repeat center center/cover;
