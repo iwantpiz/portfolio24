@@ -172,7 +172,7 @@ h2::selection {
   }
   
   .pimage {
-    background: #E5E5E5;
+    background: var(--bg-secondary-two);
     padding: 5%;
     margin-bottom: 3.5rem;
 
