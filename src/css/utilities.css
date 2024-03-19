@@ -229,11 +229,10 @@ h2::selection {
           font-size: 3rem;
         }
         .text {
-          p, em, a {
+          p, em {
             margin: 10px;
           }
         } 
-          
       }
   }
 }
