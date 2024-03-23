@@ -240,6 +240,13 @@ h2::selection {
   .content-text h2 {
     font-size: 2.7rem;
   }
+  #proj-page {
+    .descript {
+        .title {
+          font-size: 2rem;
+        }
+      }
+    }
 }
 
 /* desktop */
@@ -250,10 +257,11 @@ h2::selection {
       display: flex;
       justify-content: center;
         .title {
-          flex: 1 1 45%;
+          flex: 1 1 40%;
           font-size: 3rem;
         }
         .text {
+          flex: 1 1 55%;
           p, em {
             margin: 10px;
           }
@@ -261,4 +269,5 @@ h2::selection {
     }
   }
 }
+
 
