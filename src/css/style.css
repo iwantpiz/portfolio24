@@ -63,7 +63,15 @@ a {
 .link {
   color: var(--primary-color);
 }
-
+.link.is-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.link.is-disabled > a {
+  color: currentColor;
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+}
 /* Main styling */
 body {
   background: var(--bg-primary);
