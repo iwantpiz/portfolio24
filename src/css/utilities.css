@@ -181,6 +181,9 @@ h2::selection {
       padding-bottom: 50%;
     }
   }
+  .pimage-desc {
+    margin-bottom: 3.5rem;
+  }
 }
 
 
