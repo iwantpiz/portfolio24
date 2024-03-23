@@ -133,7 +133,7 @@ body {
   margin: 4px auto;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-secondary-two);
 }
 
 
