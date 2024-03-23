@@ -155,62 +155,77 @@ h2::selection {
 
 
 /* Project Pages general */
-.proj-content {
-  .heroimage {
-    position: relative;
+
+#proj-page {
+  .proj-content {
+    .heroimage {
+      position: relative;
+        margin-bottom: 7.5rem;
+        width: 100%;
+    
+      .ph-image {
+        padding-bottom: 52.028%;
+      }
+    }
+    
+    .descript {
+      margin-top: 1.5rem;
       margin-bottom: 7.5rem;
-      width: 100%;
-  
-    .ph-image {
-      padding-bottom: 52.028%;
+    }
+    
+    .pimage {
+      background: var(--bg-secondary);
+      padding: 4%;
+      margin-bottom: 3.5rem;
+
+      .pimage-box {
+        max-width: 1280px;
+        padding-bottom: 50%;
+      }
+    }
+    .pimage-desc {
+      margin-bottom: 3.5rem;
+      padding: 0 4%;
     }
   }
-  
-  .descript {
-    margin-top: 1.5rem;
-    margin-bottom: 7.5rem;
-  }
-  
-  .pimage {
-    background: var(--bg-secondary);
-    padding: 4%;
-    margin-bottom: 3.5rem;
-
-    .pimage-box {
-      max-width: 1280px;
-      padding-bottom: 50%;
+  /* Pininfarina Content */
+  .proj-content.pininfarina {
+    .ph-image { 
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png) no-repeat center center/cover;
     }
-  }
-  .pimage-desc {
-    margin-bottom: 3.5rem;
-    padding: 0 4%;
-  }
-}
-
-
-
-/* Pininfarina Content */
-.proj-content.pininfarina {
-  .ph-image { 
-    background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png) no-repeat center center/cover;
-  }
-  .pimage-box.one { 
-      background: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png) no-repeat center center/cover;
+    .pimage-box.one { 
+        background: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png) no-repeat center center/cover;
+        padding-bottom: 52.198%;
+    }
+    .pimage-box.two { 
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png) no-repeat center center/cover;
       padding-bottom: 52.198%;
-  }
-  .pimage-box.two { 
-    background: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png) no-repeat center center/cover;
-    padding-bottom: 52.198%;
-  }
-  .pimage-box.tre { 
-    background: url(../assets/project/pininfarina/portfolio_project-pininfarina3.png) no-repeat center center/cover;
-    padding-bottom: 89.964%;
-  }
-  .pimage-box.for { 
-    background: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png) no-repeat center center/cover;
-    padding-bottom: 67.32%;
+    }
+    .pimage-box.tre { 
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina3.png) no-repeat center center/cover;
+      padding-bottom: 89.964%;
+    }
+    .pimage-box.for { 
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png) no-repeat center center/cover;
+      padding-bottom: 67.32%;
+    }
   }
 }
+
+#proj-pagination {
+  .project-link {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 2%;
+    }
+  }
+}
+
+
+
+
+
 
 
 
@@ -243,13 +258,6 @@ h2::selection {
             margin: 10px;
           }
         }
-    }
-    .project-link {
-      display: flex;
-      justify-content: center;
-      a {
-        margin: 2%;
-      }
     }
   }
 }
