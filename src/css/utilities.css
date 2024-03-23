@@ -173,12 +173,12 @@ h2::selection {
   
   .pimage {
     background: var(--bg-secondary);
-    padding: 5%;
+    padding: 4%;
     margin-bottom: 3.5rem;
 
     .pimage-box {
       max-width: 1280px;
-      padding-bottom: 58%;
+      padding-bottom: 56.803%;
 
     }
   }
@@ -199,6 +199,9 @@ h2::selection {
   }
   .pimage-box.tre { 
     background: url(../assets/project/pininfarina/portfolio_project-pininfarina3.png) no-repeat center center/cover;
+  }
+  .pimage-box.for { 
+    background: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png) no-repeat center center/cover;
   }
 }
 
