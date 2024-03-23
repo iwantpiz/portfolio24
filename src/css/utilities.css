@@ -242,8 +242,15 @@ h2::selection {
           p, em {
             margin: 10px;
           }
-        } 
+        }
+    }
+    .project-link {
+      display: flex;
+      justify-content: center;
+      a {
+        margin: 2%;
       }
+    }
   }
 }
 
