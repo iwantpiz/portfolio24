@@ -313,7 +313,7 @@ body {
     }
   }
 
-  
+
   .project-container {
     display: table-cell;
     position: relative;
@@ -343,7 +343,13 @@ body {
 }
 
 
-@media (max-width: 768px) {}
+@media (min-width: 670px) {
+  .content-text {
+    width: calc(100%* .75 - 2.5rem);
+    min-width: 0;
+    margin: 0 1.25rem;
+  }
+}
 
 @media (max-width: 670px) {
 

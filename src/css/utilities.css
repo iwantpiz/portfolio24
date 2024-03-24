@@ -95,7 +95,6 @@ h2::selection {
 }
 
 
-
 /* Project cards */
 .card {
   padding: 1rem;
@@ -249,9 +248,7 @@ h2::selection {
     margin-top: 7rem;
     text-align: center;
   }
-  .content-text h2 {
-    font-size: 2.7rem;
-  }
+
   #proj-page {
     .descript {
         .title {
