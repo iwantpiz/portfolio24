@@ -1,6 +1,6 @@
 
 
-/*
+/**/
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -20,7 +20,7 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
-*/
+
 // Event Listeners: Handling toggle event
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
