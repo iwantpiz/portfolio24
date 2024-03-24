@@ -162,8 +162,6 @@ h2::selection {
       position: relative;
         margin-bottom: 7.5rem;
         width: 100%;
-        height: 100vh;
-        overflow: hidden;
     
       .ph-image {
         position: relative;
@@ -171,7 +169,6 @@ h2::selection {
         background-size: cover;
         height: 100%;
         width: 100%;
-        margin-top: 0vh;
         animation: scale 15s;
       }
       @keyframes scale {
