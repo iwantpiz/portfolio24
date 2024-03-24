@@ -162,12 +162,25 @@ h2::selection {
       position: relative;
         margin-bottom: 7.5rem;
         width: 100%;
+        height: 100vh;
+        overflow: hidden;
     
       .ph-image {
+        position: relative;
         padding-bottom: 52.028%;
+        background-size: cover;
+        height: 100%;
         width: 100%;
-        height: 100vh;
+        margin-top: 0vh;
+        animation: scale 15s;
       }
+      @keyframes scale {
+        0% {
+          transform: scale (1.5);
+        }
+        100% {
+          transform: scale (1);
+        }
     }
     
     .descript {
@@ -194,17 +207,8 @@ h2::selection {
   .proj-content.pininfarina {
     .ph-image { 
       background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png) no-repeat center center/cover;
-      animation: scale 15s;
     }
-    @keyframes scale {
-      0% {
-        transform: scale (1.5);
-      }
-      100% {
-        transform: scale (1);
-      }
-      
-    }
+  }
     .pimage-box.one { 
         background: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png) no-repeat center center/cover;
         padding-bottom: 52.198%;
