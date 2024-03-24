@@ -309,12 +309,21 @@ body {
       transform: translateY(-8px) rotate(-45deg);
     }
   }
+  .header-container .btn {
+    border-radius: 5px;
+    width: 80%;
+  }
+}
 
+
+
+ /*    > tablet    */
+@media (max-width: 768px) {
   #projects {
     /*height: 58vh;*/
     .project {
       overflow-x: scroll;
-      max-height: 95vh !important;
+      max-height: 90vh !important;
       .card {
         width: 75%;
         &:nth-child(n) {
@@ -323,15 +332,11 @@ body {
       }
     }
   }
-  
-  .header-container .btn {
-    border-radius: 5px;
-    width: 80%;
-  }
 }
 
 
-  /*    > tablet    */
+
+  /*    big tablet / small desktop    */
 @media (max-width: 1024px) {
   .header-container {
     .content-text {
