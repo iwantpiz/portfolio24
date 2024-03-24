@@ -209,7 +209,7 @@ body {
 
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 670px) {
   .project {
     max-height: 1740px !important;
     .card {
