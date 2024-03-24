@@ -142,12 +142,12 @@ h2::selection {
 
   &:nth-child(3) {
     background: url(../assets/project/portfolio_home-img3.png) center center/cover;
-    height: 635px;
+    padding-top: 32.7%;
   }
 
   &:nth-child(4) {
     background: url(../assets/project/portfolio_home-img4.png) center center/cover;
-    padding-top: 32.7%;
+    padding-top: 60%;
   }
 }
 
