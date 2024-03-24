@@ -162,13 +162,12 @@ h2::selection {
       position: relative;
         margin-bottom: 7.5rem;
         width: 100%;
-        height: 81.494vh;
     
       .ph-image {
         position: relative;
         width: 100%;
-        height: 100%;
-        background-size: cover;
+        padding-top: 23.833333333%; // = 286h/1200w
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
       }
@@ -185,7 +184,7 @@ h2::selection {
       margin-bottom: 3.5rem;
 
       .pimage-box {
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
         max-width: 1280px;
@@ -204,7 +203,7 @@ h2::selection {
  
     .pimage-box.one { 
         background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png);
-        height: 81.859vh;
+        padding-top: 57.8125%;
     }
     .pimage-box.two { 
       background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png);
