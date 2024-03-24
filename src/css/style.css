@@ -263,7 +263,7 @@ body {
       width: calc(70% - 10px);
       transition: 0.3s;
       box-shadow: var(--shadow);
-      padding: 2rem;
+      padding: 2rem 3rem;
       border-radius: 5px;
       align-items: center;
       justify-content: space-around;
