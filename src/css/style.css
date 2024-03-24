@@ -171,7 +171,7 @@ body {
   .project {
     display: flex;
     flex-flow: column wrap;
-    max-height: 800px;
+    /*max-height: 800px;*/
   
     .card {
       margin: 1.3rem;
@@ -258,10 +258,22 @@ body {
 
 /* Responsiveness */
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .project {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .header-container .btn {
+    border-radius: 5px;
+    width: 80%;
   }
 }
 
@@ -326,15 +338,5 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) {
-  .project {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 
-  .header-container .btn {
-    border-radius: 5px;
-    width: 80%;
-  }
-}
 
