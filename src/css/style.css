@@ -310,8 +310,15 @@ body {
     height: 58vh;
     .project {
       overflow-x: scroll;
+      .card {
+        width: 75%;
+        &:nth-child(n) {
+          padding-top: 60%;
+        }
+      }
     }
   }
+  
   
   .header-container .btn {
     border-radius: 5px;
@@ -328,15 +335,6 @@ body {
       width: calc(100%* .75 - 2.5rem);
       min-width: 0;
       margin: 0 1.25rem;
-    }
-  }
-  .project {
-    max-height: 140vh;
-    .card {
-      width: 75%;
-      &:nth-child(n) {
-        padding-top: 60%;
-      }
     }
   }
 }
