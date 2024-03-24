@@ -308,24 +308,9 @@ body {
 
 
   .project-container {
-    display: table-cell;
-    position: relative;
-    font-size: 0;
-    height: 520px;
-    vertical-align: top;
+    height: 58vh;
     .project {
-      position: relative;
-      padding: 0;
-      margin: 0;
-      display: table-row;
       overflow-x: scroll;
-      box-flex: 1;
-      flex: 1 0 auto;
-      -webkit-overflow-scrolling: touch;
-      font-size: 0;
-      align-items: baseline;
-      width: 100%;
-      max-height: 450px;
     }
   }
   
