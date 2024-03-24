@@ -182,6 +182,9 @@ h2::selection {
     
     .pimage {
       background: var(--bg-secondary);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
       padding: 4%;
       margin-bottom: 3.5rem;
 
@@ -214,7 +217,7 @@ h2::selection {
       padding-bottom: 89.964%;
     }
     .pimage-box.for { 
-      background: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png) no-repeat center center/cover;
+      background: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png);
       padding-bottom: 67.32%;
     }
   }
