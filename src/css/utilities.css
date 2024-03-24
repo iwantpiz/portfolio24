@@ -190,7 +190,6 @@ h2::selection {
         background-repeat: no-repeat;
         background-position: center center;
         max-width: 1280px;
-        padding-bottom: 50%;
       }
     }
     .pimage-desc {
@@ -206,7 +205,7 @@ h2::selection {
  
     .pimage-box.one { 
         background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png);
-        padding-bottom: 52.198%;
+        height: 81.86vh;
     }
     .pimage-box.two { 
       background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png);
