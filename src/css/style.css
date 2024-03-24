@@ -209,14 +209,7 @@ body {
 
 
 
-@media only screen and (min-width: 670px) {
-  .project {
-    max-height: 1740px !important;
-    .card {
-      width: 47%;
-    }
-  }
-}
+
 
 
 
@@ -226,7 +219,6 @@ body {
 
 
 /* FOOTER */
-
 #footer {
   .container {
     display: flex;
@@ -257,6 +249,7 @@ body {
 
 /* Responsiveness */
 
+  /* mobile */
 @media (max-width: 670px) {
   .navbar {
     .btn {
@@ -343,11 +336,32 @@ body {
 }
 
 
+
+@media only screen and (min-width: 670px) {
+
+}
+
+
+  /*    > tablet    */
 @media (min-width: 670px) {
-  .content-text {
-    width: calc(100%* .75 - 2.5rem);
-    min-width: 0;
-    margin: 0 1.25rem;
+  .header-container {
+    .content-text {
+      width: calc(100%* .75 - 2.5rem);
+      min-width: 0;
+      margin: 0 1.25rem;
+    }
+  }
+  .project {
+    max-height: 140vh;
+    .card {
+      width: 47%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .project {
+    max-height: 180vh;
   }
 }
 
