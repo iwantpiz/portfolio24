@@ -193,6 +193,8 @@ h2::selection {
     .ph-image { 
       background: url(../assets/project/pininfarina/portfolio_project-pininfarina0.png) no-repeat center center/cover;
       animation: scale 15s;
+      width: 100%;
+      height: 100%;
     }
     @keyframes scale {
       0% {
