@@ -240,7 +240,11 @@ h2::selection {
 
 /* Media Queries */
 
-/* Mobile + tablet */
+/* mobile */
+@media (max-width: 430px) {
+
+}
+/* tablet */
 @media (max-width: 1024px) {
   .header-container {
     margin-top: 7rem;
@@ -268,12 +272,11 @@ h2::selection {
       .pimage-box.for {
         height: 44vh !important
       }
-    }
-
-    
+    } 
 }
 
-/* desktop */
+
+/* large-tablet & mini-desktop */
 @media (min-width: 1024px) {
   /* Project page */
   #proj-page {
@@ -294,4 +297,15 @@ h2::selection {
   }
 }
 
+
+/* desktop */
+@media (min-width: 1280px) {
+
+}
+
+
+/* large desktop */
+@media (min-width: 1680px) {
+
+}
 
