@@ -292,6 +292,9 @@ h2::selection {
           }
         }
     }
+    .text {
+      line-height: 1.6875rem;
+    }
   }
 }
 
