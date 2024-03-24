@@ -257,16 +257,16 @@ h2::selection {
       }
       .heroimage,
       .pimage-box.one {
-        height: 37vh;
+        height: 37vh !important
       }
       .pimage-box.two {
-        height: 34vh;
+        height: 34vh !important
       }
       .pimage-box.tre {
-        height: 59vh;
+        height: 59vh !important
       }
       .pimage-box.for {
-        height: 44vh;
+        height: 44vh !important
       }
     }
 
