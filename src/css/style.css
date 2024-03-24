@@ -170,6 +170,7 @@ body {
   .project {
     display: flex;
     flex-flow: column wrap;
+    max-height: 180vh;
   
     .card {
       margin: 1.3rem;
