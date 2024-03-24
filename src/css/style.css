@@ -334,7 +334,7 @@ body {
     max-height: 140vh;
     .card {
       width: 75%;
-      &:nth-child() {
+      &:nth-child(n) {
         padding-top: 60%;
       }
     }
