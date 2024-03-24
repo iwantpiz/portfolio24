@@ -314,7 +314,7 @@ body {
     /*height: 58vh;*/
     .project {
       overflow-x: scroll;
-      max-height: 130vh;
+      max-height: 100vh;
       .card {
         width: 75%;
         &:nth-child(n) {
@@ -332,7 +332,7 @@ body {
 
 
   /*    > tablet    */
-@media (min-width: 670px) {
+@media (max-width: 768px) {
   .header-container {
     .content-text {
       width: calc(100%* .75 - 2.5rem);
@@ -340,12 +340,15 @@ body {
       margin: 0 1.25rem;
     }
   }
+  .project {
+    max-height: 130vh;
+  }
 }
 
   /*    > desktop    */
-@media (min-width: 1024px) {
+@media (max-width: 1240px) {
   .project {
-    max-height: 175vh;
+    max-height: 170vh;
   }
 }
 
