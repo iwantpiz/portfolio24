@@ -101,10 +101,11 @@ body {
 
     a.nav-link.btn.btn-primary {
       margin-right: 1.5rem;
-
-      .fas.fa-arrow-right {
-        margin-left: 0.5rem;
-        font-size: 0.9rem;
+      svg {
+        width: 13px;
+        top: 2px;
+        position: relative;
+        right: -5px;
       }
     }
   }
