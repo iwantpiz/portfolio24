@@ -131,12 +131,12 @@ h2::selection {
 .card {
   &:nth-child(1) {
     background: url(../assets/project/portfolio_home-img1.png) center center/cover;
-    height: 1020px;
+    padding-top: 60%;
   }
 
   &:nth-child(2) {
     background: url(../assets/project/portfolio_home-img2.png) center center/cover;
-    height: 635px;
+    padding-top: 32.7%;
 
   }
 
@@ -147,7 +147,7 @@ h2::selection {
 
   &:nth-child(4) {
     background: url(../assets/project/portfolio_home-img4.png) center center/cover;
-    height: 1020px;
+    padding-top: 32.7%;
   }
 }
 
@@ -245,7 +245,6 @@ h2::selection {
 /* tablet */
 @media (max-width: 1024px) {
   .header-container {
-    margin-top: 7rem;
     text-align: center;
   }
 
