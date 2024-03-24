@@ -258,31 +258,6 @@ body {
 /* Responsiveness */
 
 @media (max-width: 670px) {
-  .project {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    display: table-row;
-    overflow-x: scroll;
-    box-flex: 1;
-    flex: 1 0 auto;
-    -webkit-overflow-scrolling: touch;
-    font-size: 0;
-    align-items: baseline;
-    width: 100%;
-    max-height: 450px;
-  }
-  .header-container .btn {
-    border-radius: 5px;
-    width: 80%;
-  }
-}
-
-
-@media (max-width: 768px) {}
-
-@media (max-width: 670px) {
-
   .navbar {
     .btn {
       margin: 0;
@@ -337,6 +312,42 @@ body {
       transform: translateY(-8px) rotate(-45deg);
     }
   }
+
+  
+  .project-container {
+    display: table-cell;
+    position: relative;
+    font-size: 0;
+    height: 520px;
+    vertical-align: top;
+    .project {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      display: table-row;
+      overflow-x: scroll;
+      box-flex: 1;
+      flex: 1 0 auto;
+      -webkit-overflow-scrolling: touch;
+      font-size: 0;
+      align-items: baseline;
+      width: 100%;
+      max-height: 450px;
+    }
+  }
+  
+  .header-container .btn {
+    border-radius: 5px;
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 670px) {
+
+
 }
 
 
