@@ -166,7 +166,6 @@ h2::selection {
     
       .ph-image {
         position: relative;
-        padding-bottom: 52.028%;
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -242,7 +241,7 @@ h2::selection {
 /* Media Queries */
 
 /* Mobile + tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .header-container {
     margin-top: 7rem;
     text-align: center;
@@ -256,11 +255,26 @@ h2::selection {
           font-size: 2rem;
         }
       }
+      .heroimage,
+      .pimage-box.one {
+        height: 37vh;
+      }
+      .pimage-box.two {
+        height: 34vh;
+      }
+      .pimage-box.tre {
+        height: 59vh;
+      }
+      .pimage-box.for {
+        height: 44vh;
+      }
     }
+
+    
 }
 
 /* desktop */
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   /* Project page */
   #proj-page {
     .descript {
