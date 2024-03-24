@@ -342,7 +342,7 @@ body {
   /*    > desktop    */
 @media (min-width: 1024px) {
   .project {
-    max-height: 180vh;
+    max-height: 175vh;
   }
 }
 
