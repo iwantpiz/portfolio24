@@ -162,7 +162,7 @@ h2::selection {
       position: relative;
         margin-bottom: 7.5rem;
         width: 100%;
-        height: 100%;
+        height: 81.494vh;
     
       .ph-image {
         position: relative;
@@ -205,19 +205,19 @@ h2::selection {
  
     .pimage-box.one { 
         background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina1.png);
-        height: 81.86vh;
+        height: 81.859vh;
     }
     .pimage-box.two { 
       background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png);
-      padding-bottom: 52.198%;
+      height: 75.222vh;
     }
     .pimage-box.tre { 
       background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina3.png);
-      padding-bottom: 89.964%;
+      height: 129.6466vh;
     }
     .pimage-box.for { 
       background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png);
-      padding-bottom: 67.32%;
+      height: 97.014vh;
     }
   }
 }
