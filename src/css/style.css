@@ -125,7 +125,7 @@ body {
 /* HEADER MOBILE */
 /* hamburger */
 .hamburger {
-  margin-bottom: 0.1rem;
+  margin-bottom: 1.5rem;
   display: none;
 }
 
@@ -260,23 +260,24 @@ body {
       position: fixed;
       right: -100vw;
       top: 4.5rem;
-      flex-direction: column;
-      width: calc(80% - 10px);
+      flex-direction: row;
+      width: calc(70% - 10px);
       transition: 0.3s;
       box-shadow: var(--shadow);
       padding: 2rem;
       border-radius: 5px;
-      align-items: flex-start;
+      align-items: center;
+      justify-content: space-around;
       .nav-link {
         font-size: 0.9rem;
         margin: 0 0.2rem;
       }
       li {
         margin-bottom: 0.5rem;
-        width: 60%;
+        width: 55%;
       }
       li.theme-switch {
-        width: 40%;
+        width: 25%;
       }
       .btn {
         width: 100%;
