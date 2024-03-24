@@ -240,7 +240,7 @@ h2::selection {
 /* Media Queries */
 
 /* Mobile + tablet */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .header-container {
     margin-top: 7rem;
     text-align: center;
@@ -258,7 +258,7 @@ h2::selection {
 }
 
 /* desktop */
-@media (min-width: 768px) {
+@media (min-width: 1023px) {
   /* Project page */
   #proj-page {
     .descript {
@@ -266,7 +266,7 @@ h2::selection {
       justify-content: center;
         .title {
           flex: 1 1 40%;
-          font-size: 3rem;
+          /*font-size: 3rem;*/
         }
         .text {
           flex: 1 1 55%;
