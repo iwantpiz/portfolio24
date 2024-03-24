@@ -112,6 +112,9 @@ body {
   #logo {
     a {
       font-size: 1.6rem;
+      span {
+        font-size: 1.2rem;
+      }
     }
   }
 }
