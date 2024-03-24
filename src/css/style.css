@@ -314,7 +314,7 @@ body {
     /*height: 58vh;*/
     .project {
       overflow-x: scroll;
-      max-height: 95vh;
+      max-height: 95vh !important;
       .card {
         width: 75%;
         &:nth-child(n) {
@@ -348,6 +348,6 @@ body {
   /*    > desktop    */
 @media (max-width: 1280px) {
   .project {
-    max-height: 150vh;
+    max-height: 150vh !important;
   }
 }
