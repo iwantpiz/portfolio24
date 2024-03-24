@@ -310,6 +310,7 @@ body {
     height: 58vh;
     .project {
       overflow-x: scroll;
+      max-height: 130vh;
       .card {
         width: 75%;
         &:nth-child(n) {
