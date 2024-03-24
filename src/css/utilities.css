@@ -166,7 +166,7 @@ h2::selection {
       .ph-image {
         position: relative;
         width: 100%;
-        padding-top: 23.833333333%; // = 286h/1200w
+        padding-top: 52.02702%; /* = 770h/1480w*/
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
