@@ -334,6 +334,9 @@ body {
     max-height: 140vh;
     .card {
       width: 75%;
+      &:nth-child() {
+        padding-top: 60%;
+      }
     }
   }
 }
