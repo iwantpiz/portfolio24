@@ -273,7 +273,10 @@ body {
       }
       li {
         margin-bottom: 0.5rem;
-        width: 100%;
+        width: 60%;
+      }
+      li.theme-switch {
+        width: 40%;
       }
       .btn {
         width: 100%;
