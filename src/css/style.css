@@ -258,24 +258,27 @@ body {
 
 /* Responsiveness */
 
-@media (max-width: 1024px) {
+@media (max-width: 670px) {
   .project {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: table-row;
+    overflow-x: scroll;
+    box-flex: 1;
+    flex: 1 0 auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0;
+    align-items: baseline;
+    width: 100%;
   }
-}
-
-@media only screen and (min-width: 320px) {
-  .project {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
   .header-container .btn {
     border-radius: 5px;
     width: 80%;
   }
+  
 }
+
 
 @media (max-width: 768px) {}
 
@@ -335,7 +338,6 @@ body {
       transform: translateY(-8px) rotate(-45deg);
     }
   }
-
 }
 
 
