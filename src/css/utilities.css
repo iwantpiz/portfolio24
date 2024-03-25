@@ -131,23 +131,23 @@ h2::selection {
 .card {
   &:nth-child(1) {
     background: url(../assets/project/portfolio_home-img1.png) center center/cover;
-    padding-top: 60%;
+    padding-top: 61.314%
   }
 
   &:nth-child(2) {
     background: url(../assets/project/portfolio_home-img2.png) center center/cover;
-    padding-top: 32.7%;
+    padding-top: 33.964%;
 
   }
 
   &:nth-child(3) {
     background: url(../assets/project/portfolio_home-img3.png) center center/cover;
-    padding-top: 32.7%;
+    padding-top: 33.964%;
   }
 
   &:nth-child(4) {
     background: url(../assets/project/portfolio_home-img4.png) center center/cover;
-    padding-top: 60%;
+    padding-top: 61.314%
   }
 }
 
