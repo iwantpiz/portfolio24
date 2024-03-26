@@ -65,7 +65,7 @@ if (currentTheme) {
 
 function openProject() {
   alert("hhhhh");
-  $( "#projects" ).empty();
+  $( "#projects" ).html().remove();
   $( "#projects" ).load( "01_pininfarina.html" );
 }
 
