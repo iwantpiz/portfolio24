@@ -63,7 +63,11 @@ if (currentTheme) {
 }
 
 
-
+$( "#button" ).on( "click", function() {
+  $( "#projects" ).empty();
+  $( "#projects" ).load( "01_pininfarina.html" );
+} );
+/*
 //Loading project
 function openProject() {
     //document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
@@ -72,7 +76,7 @@ function openProject() {
       $( "#projects" ).load( "01_pininfarina.html" );
    });
 }
-
+*/
 //Adding date
 
 let myDate = document.querySelector( "#datee" );
