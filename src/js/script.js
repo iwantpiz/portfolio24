@@ -65,7 +65,7 @@ if (currentTheme) {
 
 function openProject() {
   alert("inizio");
-  $( "section" ).html().remove();
+  $( "section" ).remove();
   alert("mezzo");
   $( "#projects" ).load( "01_pininfarina.html" );
   alert("fine");
