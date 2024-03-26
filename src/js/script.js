@@ -62,6 +62,12 @@ if (currentTheme) {
   }
 }
 
+
+//Loading project
+function openProject() {
+  document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
+}
+
 //Adding date
 
 let myDate = document.querySelector("#datee");
@@ -70,9 +76,3 @@ const yes = new Date().getFullYear();
 myDate.innerHTML = yes;
 
 
-
-
-//
-function openProject {
-  document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>'
-}
