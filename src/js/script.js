@@ -64,6 +64,18 @@ if (currentTheme) {
 
 
 function openProject() {
+  $(document).ready(()=>{
+    $('#button').click(()=>{
+        $('section').
+        children().remove();
+    });
+  });
+}
+
+
+
+/*
+function openProject() {
   alert("inizio");
   $( "section" ).remove();
   alert("mezzo");
@@ -71,7 +83,7 @@ function openProject() {
   alert("fine");
 }
 
-/*
+
 //Loading project
 function openProject() {
     //document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
