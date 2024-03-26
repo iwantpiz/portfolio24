@@ -146,7 +146,7 @@ h2::selection {
   }
 
   &:nth-child(4) {
-    background: url(../assets/project/portfolio_home-img4.png) center center/cover;
+    background: url(../assets/project/home-715x635_homebits.png) center center/cover;
     padding-top: 61.314%
   }
 }
