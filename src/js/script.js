@@ -66,7 +66,7 @@ if (currentTheme) {
 //Loading project
 function openProject() {
   $("#button").on("click",function() {
-    //document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
+    document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
     $("#projects").load("01_pininfarina.html");
   });
 }
