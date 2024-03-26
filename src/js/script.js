@@ -63,6 +63,11 @@ if (currentTheme) {
 }
 
 
+function openProject() {
+  alert("hhhhh");
+  $( "#projects" ).empty();
+  $( "#projects" ).load( "01_pininfarina.html" );
+}
 
 /*
 //Loading project
