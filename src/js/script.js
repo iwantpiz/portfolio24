@@ -62,12 +62,20 @@ if (currentTheme) {
   }
 }
 
+$(document).ready(function () {
+  $('#button').click(function(){
+      $('#projects').load( '01_pininfarina.html' );
+  });
+});
+
+
+
 
 //Loading project
 function openProject() {
     //document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
     $(function() {
-      $("#projects").load("01_pininfarina.html");
+      $("#projects").load("projects");
    });
     //$("#projects").load("01_pininfarina.html");
 }
