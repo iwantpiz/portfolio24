@@ -70,4 +70,9 @@ const yes = new Date().getFullYear();
 myDate.innerHTML = yes;
 
 
-alert("Hello world!");
+
+
+//
+function openProject {
+  document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>'
+}
