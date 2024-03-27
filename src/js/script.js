@@ -121,6 +121,7 @@ function openProject() {
   $(document).ready(function(){
     $("#button").click(function(){
       $( "#proj-page" ).load( "/projects/01_pininfarina.html" );
+      alert('dentro');
     });
   });
 
