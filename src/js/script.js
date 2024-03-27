@@ -117,7 +117,14 @@ function openProject() {
 function openProject() {
     alert('inici');
   $( "section" ).empty();
-  $( "#proj-page" ).load( "/projects/01_pininfarina.html" );
+
+  $(document).ready(function(){
+    $("#button").click(function(){
+      $( "#proj-page" ).load( "/projects/01_pininfarina.html" );
+    });
+  });
+
+  //$( "#proj-page" ).load( "/projects/01_pininfarina.html" );
     alert('fine');
  //document.getElementById('projects').innerHTML='<object type="text/html" data="projects/01_pininfarina.html" ></object>';
  /*
