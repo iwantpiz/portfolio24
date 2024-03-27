@@ -72,7 +72,7 @@
 
         <article class="project">
           
-          <div href="" class="card">
+          <div class="card">
             <div class="project-info">
               <a id="button" onclick="openProject()">
                 <div class="project-bio">
@@ -88,11 +88,6 @@
               <div class="project-bio">
                 <h3>Onadasail</h3>
                 <p>UI/UX Design & Development</p>
-              </div>
-  
-              <div class="project-link">
-                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
               </div>
             </div>
           </div>
@@ -135,7 +130,12 @@
     
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>document.getElementById("proj-page").innerHTML = "come cazzo si fa";</script>
+    <script>  
+      $("#button").click(function(){
+      $( "#proj-page" ).load( "/projects/01_pininfarina.html" );
+      alert('dentro');
+    });
+    </script>
   </body>
 </html>
 
