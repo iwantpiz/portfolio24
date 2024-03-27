@@ -115,7 +115,7 @@ function openProject() {
 function openProject() {
     alert('1');
   $( "section" ).empty();
-  $( "#project-paging" ).load( "/projects/01_pininfarina.html" );
+  $( "#proj-page" ).load( "/projects/01_pininfarina.html" );
     alert('fine');
  //document.getElementById('projects').innerHTML='<object type="text/html" data="projects/01_pininfarina.html" ></object>';
  /*
