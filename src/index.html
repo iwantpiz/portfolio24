@@ -71,7 +71,7 @@
           
           <div class="card">
             <div class="project-info">
-              <a id="button">
+              <a id="button01">
                 <div class="project-bio">
                   <h3>Pininfarina</h3>
                   <p>UI/UX Design & Development</p>
@@ -91,15 +91,12 @@
 
           <div class="card">
             <div class="project-info">
-              <div class="project-bio">
-                <h3>Psicoline</h3>
-                <p>UX Research, UI/UX Design</p>
-              </div>
-  
-              <div class="project-link">
-                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-              </div>
+              <a id="button02">
+                <div class="project-bio">
+                  <h3>Psicoline</h3>
+                  <p>UX Research, UI/UX Design</p>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -129,13 +126,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>  
       $(document).ready(function(){
-        $("#button").click(function(){
+        $("#button01").click(function(){
             $( "section" ).empty();
             $( ".project01" ).load( "projects/01_pininfarina.html" );
-            //$( ".project02" ).load( "01_pininfarina.html" );
+          });
+          $("#button02").click(function(){
+            $( "section" ).empty();
+            $( ".project02" ).load( "projects/02_psicoline.html" );
           });
       });
     </script>
   </body>
 </html>
+
+
 
