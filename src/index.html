@@ -74,7 +74,7 @@
           
           <div class="card">
             <div class="project-info">
-              <a id="button" onclick="openProject()">
+              <a id="button">
                 <div class="project-bio">
                   <h3>Pininfarina</h3>
                   <p>UI/UX Design & Development</p>
@@ -131,10 +131,17 @@
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>  
+
+    $(document).ready(function(){
+      alert('dentro funzion 1');
       $("#button").click(function(){
-      $( "#projects" ).load( "/projects/01_pininfarina.html" );
-      alert('dentro');
+        alert('dentro funzion 2');
+          $( "#projects" ).load( "/projects/01_pininfarina.html" );
+          $( '#proj-page' ).load( 'footer.html' );
+          alert('fine dentro');
+        });
     });
+
     </script>
   </body>
 </html>
