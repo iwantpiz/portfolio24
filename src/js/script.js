@@ -63,16 +63,6 @@ if (currentTheme) {
 }
 
 
-$(document).ready(function(){
-  $("#button").click(function(){
-    alert('dentro funzion 2');
-      $( "#projects" ).load( "01_pininfarina.html" );
-      $( '#proj-page' ).load( 'footer.html' );
-      alert('fine dentro');
-    });
-});
-
-
 /*
 function openProject() {
   $(document).ready(()=>{
