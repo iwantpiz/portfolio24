@@ -118,9 +118,8 @@ $(document).ready(function(){
 function openProject() {
   alert('1');
  $( "section" ).empty();
+$( "#project-paging" ).load( "/projects/01_pininfarina.htm" );
    alert('2');
-$( "article#project-paging" ).load( "/projects/01_pininfarina.htm #proj-page" );
-   alert('3');
  //document.getElementById('projects').innerHTML='<object type="text/html" data="projects/01_pininfarina.html" ></object>';
  /*
  $(function() {
