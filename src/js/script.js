@@ -112,8 +112,9 @@ function openProject() {
    
 }*/
 
+
 function openProject() {
-    alert('inizio');
+    alert('inici');
   $( "section" ).empty();
   $( "#proj-page" ).load( "/projects/01_pininfarina.html" );
     alert('fine');
