@@ -81,6 +81,13 @@ body {
 }
 
 
+.animation {
+  animation-duration: 600ms;
+  animation-fill-mode: both;
+}
+.fadeIn {
+  animation-name: fadeIn;
+}
 
 /* HEADER */
 .navbar {
