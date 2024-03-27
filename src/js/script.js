@@ -143,7 +143,16 @@ $("#button").click(function() {
 
 }
 */
-
+$(document).ready(function(){
+  $(".button01").click(function(){
+      $( "section" ).empty();
+      $( ".project01" ).load( "projects/01_pininfarina.html" );
+    });
+    $(".button02").click(function(){
+      $( "section" ).empty();
+      $( ".project02" ).load( "projects/02_psicoline.html" );
+    });
+});
 
 //Adding date
 let myDate = document.querySelector( "#datee" );
