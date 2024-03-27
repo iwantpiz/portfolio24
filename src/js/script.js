@@ -63,6 +63,8 @@ if (currentTheme) {
 }
 
 
+
+/*
 function openProject() {
   $(document).ready(()=>{
     $('#button').click(()=>{
@@ -72,9 +74,8 @@ function openProject() {
   });
 }
 
+--------------------------
 
-
-/*
 function openProject() {
   alert("inizio");
   $( "section" ).remove();
@@ -83,18 +84,61 @@ function openProject() {
   alert("fine");
 }
 
+$(document).ready(function(){
+  $("#button").click(function() {
+   $( "#projects" ).load( "/projects/01_pininfarina.html #proj-page" );
+ });
+});
 
 //Loading project
 function openProject() {
-    //document.getElementById("projects").innerHTML='<object type="text/html" data="01_pininfarina.html" ></object>';
+     alert('1');
+    $( "section" ).empty();
+      alert('2');
+   $( "section" ).load( "/projects/01_pininfarina.htm #proj-page" );
+      alert('3');
+    //document.getElementById('projects').innerHTML='<object type="text/html" data="projects/01_pininfarina.html" ></object>';
+    /*
     $(function() {
       $( "#projects" ).empty();
       $( "#projects" ).load( "01_pininfarina.html" );
    });
-}
-*/
-//Adding date
+   
+   $(document).ready(function(){
+   $("#button").click(function() {
+    $( "#projects" ).load( "/projects/01_pininfarina.html" );
+  });
+});
+   
+}*/
 
+$(document).ready(function(){
+        $( '#footer' ).load( '../footer.html' );
+      });
+function openProject() {
+  alert('1');
+ $( "section" ).empty();
+   alert('2');
+$( "article#project-paging" ).load( "/projects/01_pininfarina.htm #proj-page" );
+   alert('3');
+ //document.getElementById('projects').innerHTML='<object type="text/html" data="projects/01_pininfarina.html" ></object>';
+ /*
+ $(function() {
+   $( "#projects" ).empty();
+   $( "#projects" ).load( "01_pininfarina.html" );
+});
+
+$(document).ready(function(){
+$("#button").click(function() {
+ $( "#projects" ).load( "/projects/01_pininfarina.html" );
+});
+});*/
+
+}
+
+
+
+//Adding date
 let myDate = document.querySelector( "#datee" );
 
 const yes = new Date().getFullYear();
