@@ -343,19 +343,13 @@ body {
 
 
 
-  /*    big tablet / small desktop    */
+  /*    large tablet / small desktop    */
 @media (max-width: 1024px) {
-  .header-container {
-    .content-text {
-      width: calc(100%* .75 - 2.5rem);
-      min-width: 0;
-      margin: 0 1.25rem;
-    }
-  }
   .project {
     max-height: 130vh !important;
+    }
   }
-}
+
 
   /*    > desktop    */
 @media (max-width: 1280px) {

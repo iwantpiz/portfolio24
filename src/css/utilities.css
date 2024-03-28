@@ -74,26 +74,28 @@ h2::selection {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-}
 
-.content-text {
-  text-align: left;
-  margin: 1.5rem 0;
 
-  h2 {
-    font-size: 6vw;
-    line-height: 6.8vw;
-    transition: 0.2s ease-in-out;
-    font-family: "Raleway", sans-serif;
+  .content-text {
+    text-align: left;
+    width: calc(100%* .75 - 2.5rem);
+    min-width: 0;
+    margin: 0 1.25rem;
+
+    h2 {
+      font-size: 6vw;
+      line-height: 6.8vw;
+      transition: 0.2s ease-in-out;
+      font-family: "Raleway", sans-serif;
+    }
+
+    p {
+      padding: 0.5rem;
+      margin: 0 auto;
+      max-width: 700px;
+    }
   }
-
-  p {
-    padding: 0.5rem;
-    margin: 0 auto;
-    max-width: 700px;
-  }
 }
-
 
 /* Project cards */
 .card {
@@ -245,10 +247,14 @@ h2::selection {
 @media (max-width: 430px) {
 
 }
+
 /* tablet */
 @media (max-width: 1024px) {
   .header-container {
     text-align: center;
+    .content-text {
+      margin: 1.5rem 0;
+      width: 100%;
   }
 
   #proj-page {
@@ -272,6 +278,7 @@ h2::selection {
       }
     } 
 }
+
 
 
 /* large-tablet & mini-desktop */
