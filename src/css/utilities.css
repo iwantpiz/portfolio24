@@ -277,9 +277,8 @@ h2::selection {
         
       }
     } 
+  }
 }
-
-
 
 /* large-tablet & mini-desktop */
 @media (min-width: 1024px) {
@@ -316,4 +315,3 @@ h2::selection {
 @media (min-width: 1680px) {
 
 }
-
