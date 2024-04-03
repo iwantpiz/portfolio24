@@ -222,23 +222,23 @@ h2::selection {
 
   .proj-content.psicoline {
     .ph-image { 
-      background-image: url(../assets/project/pininfarina/portfolio_project02-psicoline0.jpg);
+      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline0.jpg);
     }     
  
     .pimage-box.one { 
-        background-image: url(../assets/project/pininfarina/portfolio_project02-psicoline1.png);
+        background-image: url(../assets/project/psicoline/portfolio_project02-psicoline1.png);
         padding-top: 56.804%;
     }
     .pimage-box.two { 
-      background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png);
+      background-image: url(../assets/project/psicoline/portfolio_project-pininfarina2.png);
       padding-top: 52.198%;
     }
     .pimage-box.tre { 
-      background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina3.png);
+      background-image: url(../assets/project/psicoline/portfolio_project-pininfarina3.png);
       padding-top: 88.9467%;
     }
     .pimage-box.for { 
-      background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png);
+      background-image: url(../assets/project/psicoline/portfolio_project-pininfarina4.png);
       padding-top: 67.32%;
     }
   }
