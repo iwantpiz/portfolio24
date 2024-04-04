@@ -190,6 +190,10 @@ h2::selection {
         background-position: center center;
         max-width: 1280px;
       }
+      .video {
+        max-width: 100%;
+        margin: 0 auto;
+      }
     }
     .pimage-desc {
       margin-bottom: 3.5rem;
@@ -234,11 +238,10 @@ h2::selection {
       padding-top: 52.198%;
     }
     .pimage-box.tre { 
-      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline3.png);
       padding-top: 88.9467%;
     }
-    .pimage-box.for { 
-      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline4.png);
+    .pimage-box.for {
+      /*background-image: url(../assets/project/psicoline/portfolio_project02-psicoline4.png);*/
       padding-top: 67.32%;
     }
   }
@@ -319,6 +322,12 @@ h2::selection {
           flex: 1 1 55%;
           p, em {
             margin: 10px;
+          }
+          ul {
+            list-style: inside circle;
+            li {
+              margin: 0 20px;
+            }
           }
         }
     }
