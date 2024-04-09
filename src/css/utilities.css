@@ -243,7 +243,19 @@ h2::selection {
     }
     .pvideo-box.for {
       display: flex;
-      padding-top: 67.32%;
+      justify-content: space-between;
+      align-content: flex-start;
+      align-items: flex-start;
+      .box-left {
+        display: flex;
+        flex: 1 1 100%;
+        }
+    .box-right {
+      margin-top: 20%;
+      display: flex;
+      justify-content: flex-end;
+      flex: 1 1 100%;
+      }  
     }
   }
 
