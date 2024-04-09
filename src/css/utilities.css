@@ -237,11 +237,8 @@ h2::selection {
       background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
       padding-top: 52.198%;
     }
-    .pvideo-box.tre { 
-      /*padding-top: 88.9467%;*/
-    }
     .pimage-box.for {
-      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline4.png);
+      /*background-image: url(../assets/project/psicoline/portfolio_project02-psicoline4.png);*/
       padding-top: 67.32%;
     }
   }
@@ -289,19 +286,6 @@ h2::selection {
         .title {
           font-size: 2rem;
         }
-      }
-      .heroimage,
-      .pimage-box.one {
-        
-      }
-      .pimage-box.two {
-        
-      }
-      .pimage-box.tre {
-        
-      }
-      .pimage-box.for {
-        
       }
     } 
   }
