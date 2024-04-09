@@ -237,8 +237,12 @@ h2::selection {
       background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
       padding-top: 52.198%;
     }
-    .pimage-box.for {
-      /*background-image: url(../assets/project/psicoline/portfolio_project02-psicoline4.png);*/
+    .pimage-box.two { 
+      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
+      padding-top: 52.198%;
+    }
+    .pvideo-box.for {
+      display: flex;
       padding-top: 67.32%;
     }
   }
