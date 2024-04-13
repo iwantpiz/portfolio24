@@ -257,7 +257,26 @@ body {
 
 /* Responsiveness */
 
+
   /* mobile */
+
+@media (max-width: 400px) {
+  .project {
+    max-height: 55vh !important;
+  }
+  .navbar {
+    .container {
+      padding: 4rem 2rem;
+    }
+  }
+  .header-container {
+    padding: 0 2rem;
+  }
+  #footer {
+      min-height: fit-content;
+  }
+
+
 @media (max-width: 670px) {
   .navbar {
     .btn {
@@ -296,7 +315,7 @@ body {
   }
 
   .nav-menu.active {
-    right: 20px;
+    width: 100%;
   }
 
   .hamburger {
