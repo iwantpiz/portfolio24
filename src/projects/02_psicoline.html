@@ -117,17 +117,19 @@
   </div>
 </section>
 
-    <script src="../js/script.js"></script>
+<script src="../js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <!-- Footer 
-    <footer id="footer"></footer>
-    <script src="../js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-        $( '#footer' ).load( '../footer.html' );
+<script>  
+  $(document).ready(function(){
+      $(".button01").click(function(){
+        $( "section" ).empty();
+        $( ".project01" ).load( "projects/01_pininfarina.html" );
       });
-    </script>
-</body>
-</html>
--->
+      $(".button03").click(function(){
+        $( "section" ).empty();
+        $( ".project03" ).load( "projects/03_onadasail.html" );
+      });
+  });
+      
+</script>
