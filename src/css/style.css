@@ -313,11 +313,11 @@ body {
       }
     }
   }
-
+ /*
   .nav-menu.active {
-    /*width: 100%;*/
+   width: 100%;
   }
-
+*/
   .hamburger {
     display: block;
     cursor: pointer;
