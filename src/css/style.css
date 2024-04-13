@@ -300,6 +300,7 @@ body {
   .nav-menu.active {
    width: 95%;
    right: 0;
+   z-index: 999;
   }
 
   .hamburger {
