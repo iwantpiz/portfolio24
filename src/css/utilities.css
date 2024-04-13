@@ -136,23 +136,23 @@ h2::selection {
 /* project 1 */
 .card {
   &:nth-child(1) {
-    background: url(../assets/project/portfolio_home-img1.png) center center/cover;
+    background: url(../assets/project/home-project-pininfarina.jpg) center center/cover;
     padding-top: 59.314%
   }
 
   &:nth-child(2) {
-    background: url(../assets/project/home-715x635_onada.jpg) center center/cover;
+    background: url(../assets/project/home-project-onadasail.jpg) center center/cover;
     padding-top: 37.964%;
 
   }
 
   &:nth-child(3) {
-    background: url(../assets/project/home-715x635_psicoline2.png) center center/cover;
+    background: url(../assets/project/home-project-psicoline.png) center center/cover;
     padding-top: 37.964%;
   }
 
   &:nth-child(4) {
-    background: url(../assets/project/home-715x635_homebits.png) center center/cover;
+    background: url(../assets/project/home-715x1020_homebits.png) center center/cover;
     padding-top: 59.314%
   }
 }
