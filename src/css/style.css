@@ -275,7 +275,7 @@ body {
   #footer {
       min-height: fit-content;
   }
-
+}
 
 @media (max-width: 670px) {
   .navbar {
