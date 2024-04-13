@@ -262,7 +262,7 @@ h2::selection {
         flex: 1 1 100%;
       }
       & >  div {
-        padding:2%;
+        padding:1.5%;
         background: #010101;
         border: 1px solid #1b1721;
         border-radius: 68px;
