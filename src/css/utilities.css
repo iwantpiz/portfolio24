@@ -267,10 +267,25 @@ h2::selection {
         border: 1px solid #1b1721;
         border-radius: 68px;
         box-shadow: inset 0 0 4px 2px #c0b7cd, inset 0 0 0 6px #342c3f;
-        margin: 5%;
+        margin: 8%;
       }
     }
+    .pvideo-box.desktop {
+      background: #0d0d0d;
+      border-radius: 20px;
+      box-shadow: inset 0 0 0 2px #c8cacb;
+      margin: 0 auto;
+      padding: 9px 9px 3px;
+      position: relative;
+        .video {
+          border-radius: 15px;
+        }
+    }
   }
+
+
+
+  
 
  
   .proj-content.onadasail {
