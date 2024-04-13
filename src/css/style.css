@@ -274,7 +274,7 @@ body {
       width: calc(70% - 10px);
       transition: 0.3s;
       box-shadow: var(--shadow);
-      padding: 2rem 3rem;
+      padding: 4rem 3rem;
       border-radius: 5px;
       align-items: center;
       justify-content: space-around;
@@ -298,7 +298,8 @@ body {
   }
  
   .nav-menu.active {
-   width: 100%;
+   width: 90%;
+   right: 0;
   }
 
   .hamburger {
@@ -332,7 +333,7 @@ body {
   #projects {
     .project {
       overflow-x: scroll;
-      max-height: 90vh;
+      max-height: 90vh !important;
       .card {
         width: 75%;
         &:nth-child(n) {
