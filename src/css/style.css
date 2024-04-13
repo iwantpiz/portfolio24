@@ -261,8 +261,10 @@ body {
   /* mobile */
 
 @media (max-width: 400px) {
-  .project {
-    max-height: 55vh !important;
+  #projects {
+    .project {
+      max-height: 55vh;
+    }
   }
   .navbar {
     .container {
@@ -347,10 +349,9 @@ body {
  /*    > tablet    */
 @media (max-width: 768px) {
   #projects {
-    /*height: 58vh;*/
     .project {
       overflow-x: scroll;
-      max-height: 90vh !important;
+      max-height: 90vh;
       .card {
         width: 75%;
         &:nth-child(n) {
@@ -366,7 +367,7 @@ body {
   /*    large tablet / small desktop    */
 @media (max-width: 1024px) {
   .project {
-    max-height: 130vh !important;
+    max-height: 130vh;
     }
   }
 
@@ -374,6 +375,6 @@ body {
   /*    > desktop    */
 @media (max-width: 1280px) {
   .project {
-    max-height: 180vh !important;
+    max-height: 180vh;
   }
 }
