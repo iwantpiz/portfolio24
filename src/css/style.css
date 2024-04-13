@@ -177,7 +177,7 @@ body {
   .project {
     display: flex;
     flex-flow: column wrap;
-    /*max-height: 205vh;*/
+    max-height: 205vh;
   
     .card {
       margin: 1.3rem;
@@ -260,25 +260,6 @@ body {
 
   /* mobile */
 
-@media (min-width: 320px) {
-  #projects {
-    .project {
-      max-height: 55vh;
-    }
-  }
-  .navbar {
-    .container {
-      padding: 5rem 2rem;
-    }
-  }
-  .header-container {
-    padding: 0 2rem;
-  }
-  #footer {
-      min-height: fit-content;
-  }
-}
-
 @media (max-width: 670px) {
   .navbar {
     .btn {
@@ -315,11 +296,11 @@ body {
       }
     }
   }
- /*
+ 
   .nav-menu.active {
    width: 100%;
   }
-*/
+
   .hamburger {
     display: block;
     cursor: pointer;
