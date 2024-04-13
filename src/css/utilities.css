@@ -253,13 +253,16 @@ h2::selection {
       .box-left {
         display: flex;
         flex: 1 1 100%;
-        }
-    .box-right {
-      margin-top: 20%;
-      display: flex;
-      justify-content: flex-end;
-      flex: 1 1 100%;
-      }  
+      }
+      .box-right {
+        margin-top: 20%;
+        display: flex;
+        justify-content: flex-end;
+        flex: 1 1 100%;
+      }
+      & >  div {
+        padding:5%;
+      }
     }
   }
 
