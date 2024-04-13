@@ -177,7 +177,7 @@ body {
   .project {
     display: flex;
     flex-flow: column wrap;
-    max-height: 205vh;
+    /*max-height: 205vh;*/
   
     .card {
       margin: 1.3rem;
@@ -260,7 +260,7 @@ body {
 
   /* mobile */
 
-@media (max-width: 400px) {
+@media (min-width: 320px) {
   #projects {
     .project {
       max-height: 55vh !important;
@@ -355,7 +355,7 @@ body {
       .card {
         width: 75%;
         &:nth-child(n) {
-          padding-top: 60%;
+          padding-top: 100%;
         }
       }
     }
