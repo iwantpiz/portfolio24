@@ -197,6 +197,7 @@ h2::selection {
       .video {
         max-width: 100%;
         margin: 0 auto;
+        border-radius: 40px;
       }
     }
     .pimage-desc {
@@ -261,7 +262,12 @@ h2::selection {
         flex: 1 1 100%;
       }
       & >  div {
-        padding:5%;
+        padding:2%;
+        background: #010101;
+        border: 1px solid #1b1721;
+        border-radius: 68px;
+        box-shadow: inset 0 0 4px 2px #c0b7cd, inset 0 0 0 6px #342c3f;
+        margin: 5%;
       }
     }
   }
