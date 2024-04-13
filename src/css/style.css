@@ -263,7 +263,7 @@ body {
 @media (max-width: 400px) {
   #projects {
     .project {
-      max-height: 55vh;
+      max-height: 55vh !important;
     }
   }
   .navbar {
