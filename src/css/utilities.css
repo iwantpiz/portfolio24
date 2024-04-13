@@ -256,7 +256,7 @@ h2::selection {
         flex: 1 1 100%;
       }
       .box-right {
-        margin-top: 20%;
+        margin-top: 30%;
         display: flex;
         justify-content: flex-end;
         flex: 1 1 100%;
