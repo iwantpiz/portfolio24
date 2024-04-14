@@ -173,7 +173,7 @@ body {
   .project {
     display: flex;
     flex-flow: column wrap;
-    max-height: 125rem;
+    max-height: 110rem;
   
     .card {
       margin: 1.3rem;
@@ -354,7 +354,7 @@ body {
   /*    large tablet / small desktop    */
 @media (max-width: 1024px) {
   .project {
-    max-height: 85rem;
+    height: 70rem;
     }
   }
 
@@ -362,6 +362,6 @@ body {
   /*    > desktop    */
 @media (max-width: 1280px) {
   .project {
-    max-height: 180vh;
+    max-height: 82rem !important;
   }
 }
