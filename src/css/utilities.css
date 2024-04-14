@@ -329,7 +329,7 @@ h2::selection {
       }
       svg {
         width: 3rem;
-        fill: var(--text-color);
+        height: 3rem;
       }
     }
     path {
@@ -369,6 +369,9 @@ h2::selection {
         .video {
           border-radius: 5px !important;
         }
+    }
+    .container {
+      padding: 1rem;
     }
   }
 }
