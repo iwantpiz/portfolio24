@@ -263,7 +263,7 @@ h3  {
   /* mobile */
   @media (max-width: 400px) {
   .project {
-    height: 22rem;
+    height: 22rem !important;
     }
   }
 
