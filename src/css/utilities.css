@@ -371,9 +371,12 @@ h2::selection {
 @media (max-width: 1024px) {
   .header-container {
     text-align: center;
-    .content-text {
-      margin: 1.5rem 0;
-      width: 100%;
+    .container {
+      padding: 0 2rem;
+      .content-text {
+        margin: 0;
+        width: 100%;
+      }
     }
   }
   #proj-page {

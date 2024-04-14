@@ -342,9 +342,10 @@ h3  {
  /*    > tablet    */
 @media (max-width: 768px) {
   #projects {
+    margin: 0 auto;
     .project {
       overflow-x: scroll;
-      max-height: 90vh !important;
+      max-height: 30rem !important;
       .card {
         width: 75%;
         &:nth-child(n) {
