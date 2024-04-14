@@ -261,6 +261,11 @@ h3  {
 
 
   /* mobile */
+  @media (max-width: 400px) {
+  .project {
+    height: 22rem;
+    }
+  }
 
 @media (max-width: 670px) {
   .navbar {
@@ -298,7 +303,7 @@ h3  {
       }
     }
     .container {
-      padding: 2rem;
+      padding: 1rem;
     }
   }
  
