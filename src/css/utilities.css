@@ -261,7 +261,7 @@ h2::selection {
         justify-content: flex-end;
         flex: 1 1 100%;
       }
-      & >  div {
+      & > div {
         padding:1.5%;
         background: #010101;
         border: 1px solid #1b1721;
@@ -347,10 +347,26 @@ h2::selection {
       line-height: 10.4vw !important;
     }
   }
+  #proj-page {
+    .pvideo-box {
+      & > div {
+        border-radius: 15px !important;
+        video {
+          border-radius: 10px !important;
+        }
+      }
+    }
+    .pvideo-box.desktop {
+      border-radius: 10px !important;
+        .video {
+          border-radius: 5px !important;
+        }
+    }
+  }
 }
 
 /* tablet */
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .header-container {
     text-align: center;
     .content-text {
