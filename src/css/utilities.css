@@ -329,6 +329,7 @@ h2::selection {
       }
       svg {
         width: 3rem;
+        fill: var(--text-color);
       }
     }
     path {
