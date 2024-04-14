@@ -98,7 +98,7 @@ body {
     z-index: 20;
     height: 7.5rem;
     width: 100%;
-    padding: 9rem 2rem;
+    padding: 7rem 2rem;
   }
 
   .nav-menu {
@@ -118,8 +118,8 @@ body {
   }
 
   #logo {
-    font-size: 1.125rem;
-    line-height: 1.5625rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -324,6 +324,10 @@ body {
   .header-container .btn {
     border-radius: 5px;
     width: 80%;
+  }
+  #logo {
+    font-size: 1.2rem;
+    line-height: 1.6em;
   }
 }
 
