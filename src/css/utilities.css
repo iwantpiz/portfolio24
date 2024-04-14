@@ -229,6 +229,7 @@ h2::selection {
     }
   }
 
+  /* Psicoline Content */
   .proj-content.psicoline {
     .ph-image { 
       background-image: url(../assets/project/psicoline/portfolio_project02-psicoline0b.jpg);
@@ -246,48 +247,10 @@ h2::selection {
       background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
       padding-top: 52.198%;
     }
-    .pvideo-box.for {
-      display: flex;
-      justify-content: space-between;
-      align-content: flex-start;
-      align-items: flex-start;
-      .box-left {
-        display: flex;
-        flex: 1 1 100%;
-      }
-      .box-right {
-        margin-top: 30%;
-        display: flex;
-        justify-content: flex-end;
-        flex: 1 1 100%;
-      }
-      & > div {
-        padding:1.5%;
-        background: #010101;
-        border: 1px solid #1b1721;
-        border-radius: 58px;
-        box-shadow: inset 0 0 4px 2px #c0b7cd, inset 0 0 0 6px #342c3f;
-        margin: 8%;
-      }
-    }
-    .pvideo-box.desktop {
-      background: #0d0d0d;
-      border-radius: 20px;
-      box-shadow: inset 0 0 0 2px #c8cacb;
-      margin: 0 auto;
-      padding: 9px 9px 3px;
-      position: relative;
-        .video {
-          border-radius: 15px;
-        }
-    }
   }
 
 
-
-  
-
- 
+  /* Onadasail Content */
   .proj-content.onadasail {
     .ph-image { 
       background-image: url(../assets/project/onadasail/portfolio_project03-onadasail0.png);
@@ -311,6 +274,45 @@ h2::selection {
     }
     */
   }
+
+
+  /* CSS Content video */
+  .pvideo-box.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    .box-left {
+      display: flex;
+      flex: 1 1 100%;
+    }
+    .box-right {
+      margin-top: 30%;
+      display: flex;
+      justify-content: flex-end;
+      flex: 1 1 100%;
+    }
+    & > div {
+      padding:1.5%;
+      background: #010101;
+      border: 1px solid #1b1721;
+      border-radius: 58px;
+      box-shadow: inset 0 0 4px 2px #c0b7cd, inset 0 0 0 6px #342c3f;
+      margin: 8%;
+    }
+  }
+  .pvideo-box.desktop {
+    background: #0d0d0d;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px #c8cacb;
+    margin: 0 auto;
+    padding: 9px 9px 3px;
+    position: relative;
+      .video {
+        border-radius: 15px;
+      }
+  }
+
 
 }
 
