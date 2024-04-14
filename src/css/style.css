@@ -118,12 +118,8 @@ body {
   }
 
   #logo {
-    a {
-      font-size: 1.5rem;
-      span {
-        font-size: 1.2rem;
-      }
-    }
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
   }
 }
 
@@ -238,7 +234,7 @@ body {
     text-align: center;
 
     a {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
 
       /*color: #fff;*/
       &:hover {
@@ -295,6 +291,9 @@ body {
         margin-top: 0.5rem;
       }
     }
+    .container {
+      padding: 2rem;
+    }
   }
  
   .nav-menu.active {
@@ -307,6 +306,7 @@ body {
     display: block;
     cursor: pointer;
     padding: 0.2rem 0.4rem;
+    z-index: 999;
   }
 
   .hamburger.active {
@@ -350,7 +350,7 @@ body {
   /*    large tablet / small desktop    */
 @media (max-width: 1024px) {
   .project {
-    max-height: 130vh;
+    max-height: 85rem;
     }
   }
 
