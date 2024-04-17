@@ -80,13 +80,13 @@ h2::selection {
 
   .content-text {
     text-align: left;
-    width: calc(100%* .75 - 2.5rem);
+    width: calc(100%* .88 - 2.5rem);
     min-width: 0;
     margin: 0 1.25rem;
 
     h2 {
-      font-size: 6.5vw;
-      line-height: 7.3vw;
+      font-size: 6vw;
+      line-height: 7vw;
       transition: 0.2s ease-in-out;
       font-family: "Raleway", sans-serif;
     }
@@ -395,7 +395,7 @@ h2::selection {
     .descript {
         .title {
           flex: 1 1 40%;
-          font-size: 2rem;
+          font-size: 2.5rem;
         }
         h2 {
           font-size: 2.5rem;
@@ -422,7 +422,7 @@ h2::selection {
 
 
 /*************      tablet       ****************/
-@media (max-width: 600px) {
+@media (width <= 768px) {
   /*    header    */
  .navbar {
    .container {
@@ -504,6 +504,18 @@ h2::selection {
    }
  }
 
+  /*    home project + cards   */
+ #projects {
+  .project {
+    max-height: 55rem;
+    .card {
+      margin: 0 1rem 0 0;
+      }
+  }
+}
+
+
+
 
  /*    project page    */
  #proj-page {
@@ -528,7 +540,7 @@ h2::selection {
 }
 
   /*************      mobile       ****************/
-  @media (max-width: 400px) {
+  @media (width <= 400px) {
     .navbar {
       #logo {
         font-size: 1.1rem !important;
@@ -538,7 +550,7 @@ h2::selection {
 
     #projects {
       .project {
-        height: 22rem !important;
+        max-height: 22rem !important;
       }
     }
   }
