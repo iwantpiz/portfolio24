@@ -506,10 +506,16 @@ h2::selection {
 
   /*    home project + cards   */
  #projects {
+  margin: 0 auto;
   .project {
-    max-height: 55rem;
+    overflow-x: scroll;
+    max-height: 30rem;
     .card {
       margin: 0 1rem 0 0;
+      width: 75%;
+        &:nth-child(n) {
+          padding-top: 100%;
+        }
       }
   }
 }
@@ -537,6 +543,22 @@ h2::selection {
  #proj-page.container {
    padding: 1rem;
  }
+
+ /***********     FOOTER       ************/
+  #footer {
+    .container {
+      min-height: auto;
+      padding-top: 0;
+      a {
+        font-size: 1.1rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
 }
 
   /*************      mobile       ****************/
