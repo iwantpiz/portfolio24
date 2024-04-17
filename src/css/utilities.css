@@ -347,6 +347,185 @@ h2::selection {
 
 /* Media Queries */
 
+/*************      huge desktop       ****************/
+@media screen and (width <= 1680px){
+  #projects {
+    .project {
+      max-height: 100rem;
+      }
+  }
+}
+
+/*************      large desktop       ****************/
+@media (width <= 1200px) {
+  #projects {
+    .project {
+      max-height: 82rem;
+      }
+  }
+}
+
+/*************      desktop       ****************/
+@media (width <= 1024px) {
+
+  /*    home header text   */
+  .header-container {
+    text-align: center;
+    .container {
+      padding: 0 2rem;
+      .content-text {
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+
+/*    home projects masonry   */
+  #projects {
+    .project {
+      max-height: 70rem;
+      }
+  }
+
+  /*    project page    */
+  #proj-page {
+    .descript {
+      display: flex;
+      justify-content: center;
+    .descript {
+        .title {
+          flex: 1 1 40%;
+          font-size: 2rem;
+        }
+        h2 {
+          font-size: 2.5rem;
+        }
+        .text {
+          flex: 1 1 55%;
+          margin-bottom: 7.5rem;
+          margin-top: 1.5rem;
+          line-height: 1.7rem;
+          p {
+            margin-bottom: 2rem;
+          }
+          ul {
+            list-style: inside circle;
+            li {
+              margin: 0 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*************      tablet       ****************/
+@media (max-width: 600px) {
+  /*    header    */
+ .navbar {
+   .container {
+     padding: 2rem;
+     .btn {
+       margin: 0;
+       margin-top: 1rem;
+     }
+     .nav-menu {
+       position: fixed;
+       right: -100vw;
+       top: 4.5rem;
+       flex-direction: row;
+       width: calc(70% - 10px);
+       transition: 0.3s;
+       box-shadow: var(--shadow);
+       padding: 4rem 3rem;
+       border-radius: 5px;
+       align-items: center;
+       justify-content: space-around;
+       .nav-link {
+         font-size: 0.9rem;
+         margin: 0 0.2rem;
+       }
+       li {
+         margin-bottom: 0.5rem;
+         width: 55%;
+       }
+       li.theme-switch {
+         width: 25%;
+       }
+       .btn {
+         width: 100%;
+         text-align: center;
+         margin-top: 0.5rem;
+       }
+     }
+     
+     .nav-menu.active {
+       width: 95%;
+       right: 0;
+       z-index: 999;
+      }
+    
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 0.2rem 0.4rem;
+        z-index: 999;
+      }
+    
+      .hamburger.active {
+        border: 1px dotted gray;
+        .bar:nth-child(2) {
+          opacity: 0;
+        }
+        .bar:nth-child(1) {
+          transform: translateY(6px) rotate(45deg);
+        }
+        .bar:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+        }
+      }
+   }
+   
+ }
+
+ /*    home header text   */
+ .header-container {
+   .content-text {
+     h2 {
+       font-size: 9vw !important;
+       line-height: 10.4vw !important;
+     }
+   }
+   .btn {
+     border-radius: 5px;
+     width: 80%;
+   }
+ }
+
+
+ /*    project page    */
+ #proj-page {
+   .pvideo-box {
+     & > div {
+       border-radius: 15px !important;
+       video {
+         border-radius: 10px !important;
+       }
+     }
+   }
+   .pvideo-box.desktop {
+     border-radius: 10px !important;
+       .video {
+         border-radius: 5px !important;
+       }
+   }
+ }
+ #proj-page.container {
+   padding: 1rem;
+ }
+}
 
   /*************      mobile       ****************/
   @media (max-width: 400px) {
@@ -365,201 +544,9 @@ h2::selection {
   }
 
 
-/*************      tablet       ****************/
-@media (max-width: 600px) {
-   /*    header    */
-  .navbar {
-    .container {
-      padding: 2rem;
-      .btn {
-        margin: 0;
-        margin-top: 1rem;
-      }
-      .nav-menu {
-        position: fixed;
-        right: -100vw;
-        top: 4.5rem;
-        flex-direction: row;
-        width: calc(70% - 10px);
-        transition: 0.3s;
-        box-shadow: var(--shadow);
-        padding: 4rem 3rem;
-        border-radius: 5px;
-        align-items: center;
-        justify-content: space-around;
-        .nav-link {
-          font-size: 0.9rem;
-          margin: 0 0.2rem;
-        }
-        li {
-          margin-bottom: 0.5rem;
-          width: 55%;
-        }
-        li.theme-switch {
-          width: 25%;
-        }
-        .btn {
-          width: 100%;
-          text-align: center;
-          margin-top: 0.5rem;
-        }
-      }
-      
-      .nav-menu.active {
-        width: 95%;
-        right: 0;
-        z-index: 999;
-       }
-     
-       .hamburger {
-         display: block;
-         cursor: pointer;
-         padding: 0.2rem 0.4rem;
-         z-index: 999;
-       }
-     
-       .hamburger.active {
-         border: 1px dotted gray;
-         .bar:nth-child(2) {
-           opacity: 0;
-         }
-         .bar:nth-child(1) {
-           transform: translateY(6px) rotate(45deg);
-         }
-         .bar:nth-child(3) {
-           transform: translateY(-8px) rotate(-45deg);
-         }
-       }
-    }
-    
-  }
-
-  /*    home header text   */
-  .header-container {
-    .content-text {
-      h2 {
-        font-size: 9vw !important;
-        line-height: 10.4vw !important;
-      }
-    }
-    .btn {
-      border-radius: 5px;
-      width: 80%;
-    }
-  }
-
-
-  /*    project page    */
-  #proj-page {
-    .pvideo-box {
-      & > div {
-        border-radius: 15px !important;
-        video {
-          border-radius: 10px !important;
-        }
-      }
-    }
-    .pvideo-box.desktop {
-      border-radius: 10px !important;
-        .video {
-          border-radius: 5px !important;
-        }
-    }
-  }
-  #proj-page.container {
-    padding: 1rem;
-  }
-}
 
 
 
-/*************      small desktop       ****************/
-@media (max-width: 1024px) {
-
-  /*    home header text   */
-  .header-container {
-    text-align: center;
-    .container {
-      padding: 0 2rem;
-      .content-text {
-        margin: 0;
-        width: 100%;
-      }
-    }
-  }
-
-/*    home projects masonry   */
-  #projects {
-    .project {
-      height: 70rem;
-      }
-  }
-
-  /*    project page    */
-  #proj-page {
-    .descript {
-        .title {
-          font-size: 2rem;
-        }
-        h2 {
-          font-size: 2.5rem;
-        }
-        .text {
-          margin-bottom: 7.5rem;
-          margin-top: 1.5rem;
-          line-height: 1.7rem;
-          p {
-            margin-bottom: 2rem;
-          }
-        }
-      }
-    } 
-
-}
 
 
-/*************      desktop       ****************/
-@media (min-width: 1024px) {
-  /*    project page    */
-  #proj-page {
-    .descript {
-      display: flex;
-      justify-content: center;
-        .title {
-          flex: 1 1 40%;
-          font-size: 2.5rem;
-        }
-        .text {
-          flex: 1 1 55%;
-          p, em {
-            margin: 10px;
-          }
-          ul {
-            list-style: inside circle;
-            li {
-              margin: 0 20px;
-            }
-          }
-        }
-    }
-    .text {
-      line-height: 1.6875rem;
-    }
-  }
-}
 
-
-/*************      large desktop       ****************/
-@media (min-width: 1280px) {
-  #projects {
-    .project {
-      max-height: 82rem !important;
-      }
-  }
-}
-
-
-/* large desktop */
-@media (min-width: 1680px) {
-
-}
