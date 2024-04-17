@@ -43,6 +43,10 @@ html {
   font-size: 100%;
   scroll-behavior: smooth;
 }
+p, li, em {
+  /*font-size: 0.8rem;*/
+  margin-bottom: 1rem;
+}
 
 /* Reset default styling */
 * {

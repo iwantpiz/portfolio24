@@ -181,9 +181,32 @@ h2::selection {
     }
     
     .descript {
-      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
       margin-bottom: 7.5rem;
+      .text {
+        flex: 1 1 55%;
+        ul {
+          list-style: inside circle;
+          li {
+            margin: 0 20px;
+            padding-left: 1.3em;
+            text-indent: -1.4rem;
+          }
+        }
+        p.desc-link {
+          margin: 1rem 2.8rem;
+        }
+      }
+      .title {
+        flex: 1 1 40%;
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 3.5rem;
+      }
     }
+
     
     .pimage {
       background: var(--bg-secondary);
@@ -386,38 +409,6 @@ h2::selection {
       max-height: 70rem;
       }
   }
-
-  /*    project page    */
-  #proj-page {
-    .descript {
-      display: flex;
-      justify-content: center;
-    .descript {
-        .title {
-          flex: 1 1 40%;
-          font-size: 2.5rem;
-        }
-        h2 {
-          font-size: 2.5rem;
-        }
-        .text {
-          flex: 1 1 55%;
-          margin-bottom: 7.5rem;
-          margin-top: 1.5rem;
-          line-height: 1.7rem;
-          p {
-            margin-bottom: 2rem;
-          }
-          ul {
-            list-style: inside circle;
-            li {
-              margin: 0 20px;
-            }
-          }
-        }
-      }
-    }
-  }
 }
 
 
@@ -509,7 +500,7 @@ h2::selection {
   margin: 0 auto;
   .project {
     overflow-x: scroll;
-    max-height: 30rem;
+    max-height: 38rem;
     .card {
       margin: 0 1rem 0 0;
       width: 75%;
@@ -525,6 +516,14 @@ h2::selection {
 
  /*    project page    */
  #proj-page {
+    .descript {
+    flex-flow: column;
+    
+    .text {
+      flex: 1 1 55%;
+      line-height: 1.7rem;
+    }
+  }
    .pvideo-box {
      & > div {
        border-radius: 15px !important;
@@ -540,11 +539,8 @@ h2::selection {
        }
    }
  }
- #proj-page.container {
-   padding: 1rem;
- }
 
- /***********     FOOTER       ************/
+/***********     FOOTER       ************/
   #footer {
     .container {
       min-height: auto;
@@ -563,6 +559,7 @@ h2::selection {
 
   /*************      mobile       ****************/
   @media (width <= 400px) {
+     /*    header    */
     .navbar {
       #logo {
         font-size: 1.1rem !important;
@@ -570,17 +567,28 @@ h2::selection {
       }
     }
 
+
+
+ /*    home porject area    */
     #projects {
       .project {
         max-height: 22rem !important;
       }
     }
-  }
 
 
-
-
-
-
-
+ /*    project page    */
+    #proj-page {
+      background:red;
+        .heroimage {
+          margin-bottom: 3rem;
+        }
+        .descript {
+          margin-bottom: 3rem;
+        }
+    }
+    #proj-page.container {
+      padding: 1rem;
+    }
+}
 
