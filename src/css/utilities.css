@@ -446,7 +446,7 @@ h2::selection {
        margin-top: 1rem;
      }
      .nav-menu {
-       position: absolute;
+       position: fixed;
        right: -100vw;
        top: 4.5rem;
        flex-direction: row;

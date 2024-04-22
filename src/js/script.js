@@ -21,6 +21,14 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
+
+$(document).click(function() { 
+  if($('.active').is(':visible')) {
+    $('.active').hide();
+  }
+});
+
+
 // Event Listeners: Handling toggle event
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
