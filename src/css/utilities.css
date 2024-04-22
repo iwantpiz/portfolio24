@@ -414,6 +414,20 @@ h2::selection {
     .project {
       max-height: 70rem;
       }
+      .pvideo-box {
+        & > div {
+          border-radius: 40px !important;
+          video {
+            border-radius: 30px !important;
+          }
+        }
+      }
+      .pvideo-box.desktop {
+        border-radius: 20px !important;
+          .video {
+            border-radius: 15px !important;
+          }
+      }
   }
 }
 
