@@ -5,8 +5,8 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #FFCF81;
-  --secondary-color: #FCA311;
+  --primary-color: #FCA311;
+  --secondary-color: #FFCF81;
   --bg-primary: #ffffff;
   --text-color: #1b1b1b;
   --text-color-two: #ffffff;
@@ -28,8 +28,8 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #FFCF81;
+  --secondary-color: #FCA311;
   --bg-primary: #000000;
   --text-color: #ffffff;
   --text-color-two: #1b1b1b;
