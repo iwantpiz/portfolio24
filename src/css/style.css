@@ -44,8 +44,8 @@ html {
   scroll-behavior: smooth;
 }
 p, li, em {
-  /*font-size: 0.8rem;*/
   margin-bottom: 1rem;
+  line-height: 1.8rem;
 }
 
 /* Reset default styling */
@@ -118,9 +118,10 @@ h3  {
 
     a.nav-link.btn.btn-primary {
       margin-right: 1.5rem;
-      svg {
-        width: 1rem;
-        top: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
         position: relative;
         right: -5px;
       }

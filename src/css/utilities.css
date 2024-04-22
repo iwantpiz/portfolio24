@@ -104,7 +104,7 @@ h2::selection {
   padding: 1rem;
   background: var(--card-background);
   color: #ffffff;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   transition: 0.4s ease-in-out;
   cursor: pointer;
   margin: 1.3rem;
@@ -173,7 +173,7 @@ h2::selection {
       .ph-image {
         position: relative;
         width: 100%;
-        padding-top: 52.02702%; /* = 770h/1480w*/
+        padding-top: 52.765%; /* = 770h/1480w*/
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
@@ -193,9 +193,6 @@ h2::selection {
             padding-left: 1.3em;
             text-indent: -1.4rem;
           }
-        }
-        p.desc-link {
-          margin: 1rem 2.8rem;
         }
       }
       .title {
@@ -272,7 +269,12 @@ h2::selection {
       background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
       padding-top: 52.198%;
     }
+
+    p.desc-link {
+      margin: 1rem 2.8rem;
+    }
   }
+
 
 
   /* Onadasail Content */
@@ -497,18 +499,20 @@ h2::selection {
 
   /*    home project + cards   */
  #projects {
-  margin: 0 auto;
   .project {
     overflow-x: scroll;
-    max-height: 38rem;
+    max-height: 50rem;
     .card {
-      margin: 0 1rem 0 0;
-      width: 75%;
+      margin: 0 1.3rem 0 0;
+      width: 90%;
         &:nth-child(n) {
-          padding-top: 100%;
+          padding-top: 125%;
         }
       }
   }
+}
+#projects.container {
+  padding: 2rem 0;
 }
 
 
@@ -558,21 +562,19 @@ h2::selection {
 }
 
   /*************      mobile       ****************/
-  @media (width <= 400px) {
+  @media (width <= 600px) {
      /*    header    */
-    .navbar {
       #logo {
         font-size: 1.1rem !important;
-        line-height: 1.3em !important;
+        line-height: 1.5em !important;
       }
-    }
 
 
 
  /*    home porject area    */
     #projects {
       .project {
-        max-height: 22rem !important;
+        max-height: 35rem !important;
       }
     }
 
@@ -580,7 +582,7 @@ h2::selection {
  /*    project page    */
     #proj-page {
         .heroimage {
-          margin-bottom: 3rem;
+          margin-bottom: 3rem !important;
         }
         .descript {
           margin-bottom: 3rem;
