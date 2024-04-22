@@ -272,7 +272,7 @@ h2::selection {
     }
 
     p.desc-link {
-      margin: 1rem 2.8rem;
+      margin: 1rem 2.6rem;
     }
   }
 
@@ -429,7 +429,7 @@ h2::selection {
        margin-top: 1rem;
      }
      .nav-menu {
-       position: fixed;
+       position: absolute;
        right: -100vw;
        top: 4.5rem;
        flex-direction: row;
