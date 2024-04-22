@@ -201,6 +201,7 @@ h2::selection {
       }
       h2 {
         font-size: 3.5rem;
+        letter-spacing: 2px;
       }
     }
 
@@ -573,6 +574,7 @@ h2::selection {
 
  /*    home porject area    */
     #projects {
+      margin:1rem auto;
       .project {
         max-height: 35rem !important;
       }
@@ -586,6 +588,9 @@ h2::selection {
         }
         .descript {
           margin-bottom: 3rem;
+          h2 {
+            font-size: 2.8rem !important;
+          }
         }
     }
     #proj-page.container {
