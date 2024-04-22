@@ -353,14 +353,17 @@ h2::selection {
       &:hover {
         cursor: pointer;
       }
+      /*
       svg {
         width: 3rem;
         height: 3rem;
-      }
+      } */
     }
+    /*
     path {
       fill: var(--text-color);
     }
+   */
   }
 }
 
