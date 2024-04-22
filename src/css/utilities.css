@@ -359,11 +359,11 @@ h2::selection {
         height: 3rem;
       } */
     }
-    /*
+    
     path {
       fill: var(--text-color);
     }
-   */
+  
   }
 }
 
