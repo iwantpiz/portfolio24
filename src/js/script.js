@@ -37,7 +37,7 @@ $(".nav-link").on('blur',function(){
 
 
 window.onclick = (event) => {
-  if(!event.target.matches('.XXX')){
+  if(!event.target.matches('.nav-link')){
     if(navMenu.classList.contains("active")){
       navMenu.classList.remove("active")
     }
