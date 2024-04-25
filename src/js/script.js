@@ -21,6 +21,42 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
+
+
+
+
+
+
+$(".nav-link").on('blur',function(){
+  $(this).fadeOut(300);
+});
+
+
+
+
+
+
+window.onclick = (event) => {
+  if(!event.target.matches('.XXX')){
+    if(navMenu.classList.contains("active")){
+      navMenu.classList.remove("active")
+    }
+  }
+}
+
+
+navMenu.addEventListener('click', event => event.stopPropagation())
+
+
+
+
+
+
+
+
+
+
+
 // Event Listeners: Handling toggle event
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
@@ -142,7 +178,7 @@ $("#button").click(function() {
 });
 
 }
-*/
+
 $(document).ready(function(){
   $(".button01").click(function(){
       $( "section" ).empty();
@@ -153,7 +189,7 @@ $(document).ready(function(){
       $( ".project02" ).load( "projects/02_psicoline.html" );
     });
 });
-
+*/
 //Adding date
 let myDate = document.querySelector( "#datee" );
 
