@@ -15,6 +15,8 @@ function mobileMenu() {
 const navLink = document.querySelectorAll(".nav-link");
 
 navLink.forEach((n) => n.addEventListener("click", closeMenu));
+navLink.addEventListener('click', event => event.stopPropagation());
+
 
 function closeMenu() {
   hamburger.classList.remove("active");
