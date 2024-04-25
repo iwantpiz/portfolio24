@@ -23,7 +23,7 @@ function closeMenu() {
 
 
 
-
+/*
 
 
 window.onclick = (event) => {
@@ -33,9 +33,11 @@ window.onclick = (event) => {
     }
   }
 }
+*/
 
 
-navMenu.addEventListener('click', event => event.stopPropagation())
+
+navMenu.addEventListener('click', event => event.stopPropagation());
 
 
 
