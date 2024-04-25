@@ -38,16 +38,6 @@ window.onclick = (event) => {
 */
 
 
-
-navMenu.addEventListener('click', event => event.stopPropagation());
-
-
-
-
-
-
-
-
 // Event Listeners: Handling toggle event
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
