@@ -26,16 +26,6 @@ function closeMenu() {
 
 
 
-
-$(".nav-link").on('blur',function(){
-  $(this).fadeOut(300);
-});
-
-
-
-
-
-
 window.onclick = (event) => {
   if(!event.target.matches('.nav-link')){
     if(navMenu.classList.contains("active")){
@@ -46,9 +36,6 @@ window.onclick = (event) => {
 
 
 navMenu.addEventListener('click', event => event.stopPropagation())
-
-
-
 
 
 
