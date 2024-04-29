@@ -173,7 +173,7 @@ h2::selection {
       .ph-image {
         position: relative;
         width: 100%;
-        padding-top: 52.765%; /* = 770h/1480w*/
+        padding-top: 52.825%; /* = 770h/1480w*/
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
@@ -236,19 +236,19 @@ h2::selection {
  
     .pimage-box.one { 
         background-image: url(../assets/project/pininfarina/project-pininfarina1.png);
-        padding-top: 56.804%;
+        padding-top: 60.718%;
     }
     .pimage-box.two { 
-      background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina2.png);
-      padding-top: 52.198%;
+      background-image: url(../assets/project/pininfarina/project-pininfarina2.jpg);
+      padding-top: 60.718%;
     }
     .pimage-box.tre { 
-      background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina3.png);
-      padding-top: 88.9467%;
+      background-image: url(../assets/project/pininfarina/project-pininfarina3.jpg);
+      padding-top: 87.508%;
     }
     .pimage-box.for { 
-      background-image: url(../assets/project/pininfarina/portfolio_project-pininfarina4.png);
-      padding-top: 67.32%;
+      background-image: url(../assets/project/pininfarina/project-pininfarina4.jpg);
+      padding-top: 60.718%;
     }
   }
 
