@@ -259,18 +259,13 @@ h2::selection {
     }     
  
     .pimage-box.one { 
-        background-image: url(../assets/project/psicoline/portfolio_project02-psicoline1.png);
+        background-image: url(../assets/project/psicoline/project02-psicoline1.png);
         padding-top: 56.804%;
     }
     .pimage-box.two { 
-      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
+      background-image: url(../assets/project/psicoline/project02-psicoline2.png);
       padding-top: 52.198%;
     }
-    .pimage-box.two { 
-      background-image: url(../assets/project/psicoline/portfolio_project02-psicoline2.png);
-      padding-top: 52.198%;
-    }
-
     p.desc-link {
       margin: 1rem 2.2rem;
     }
