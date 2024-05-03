@@ -80,7 +80,7 @@ h2::selection {
 
   .content-text {
     text-align: left;
-    width: calc(100%* .88 - 2.5rem);
+    width: calc(100%* .97 - 2.5rem);
     min-width: 0;
     margin: 0 1.25rem;
 
@@ -380,7 +380,17 @@ h2::selection {
   }
 }
 
+/* Header text HOME */
+.header-container {
+  .content-text {
+    width: calc(100%* .93 - 2.5rem) !important;
+  }
+}
+
+
 /*************      large desktop       ****************/
+
+
 @media (width <= 1200px) {
   #projects {
     .project {
