@@ -380,14 +380,6 @@ h2::selection {
   }
 }
 
-/* Header text HOME */
-.header-container {
-  .content-text {
-    width: calc(100%* .93 - 2.5rem) !important;
-  }
-}
-
-
 /*************      large desktop       ****************/
 
 
