@@ -144,7 +144,6 @@ h2::selection {
   &:nth-child(2) {
     background: url(../assets/project/home-project-onadasail.jpg) center center/cover;
     padding-top: 37.964%;
-
   }
 
   &:nth-child(3) {
